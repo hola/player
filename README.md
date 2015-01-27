@@ -1,5 +1,5 @@
 # [Hola Media Player API](https://hola.org/player)
-An HTML5 Media Player that instantly streams http and torrents to borwsers.
+An HTML5 Media Player that instantly streams http, torrents and magnets to the browser.
 
 [Live demo](http://jsbin.com/faceyu/8/)
 ```html
