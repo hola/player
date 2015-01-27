@@ -44,7 +44,7 @@ An HTML5 Media Player that instantly streams http and torrents to borwsers.
 ```
 [Live demo](http://jsbin.com/faceyu/6/)
 
-## Example: torrent and magent links popup a player upon hover
+## Example: make all torrent and magnet links pop up a media player upon hover
 ```html
 <script src="//hola.org/play_page.js"></script>
 <script>window.hola_player.init({links: 'hover'});</script>
