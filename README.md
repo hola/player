@@ -74,18 +74,20 @@ Language detection:
 
 ### parameters formatting
 
-* url (link or iframe src): http://hola.org/play#v=...&param1=...&param2=...&param3=...
-* div parameters: &lt;div class="hola-embedded-player" v="..." param1="..." param2="..." param3="..."&gt;
+* url (link or iframe src):
+  `http://hola.org/play#v=...&param1=...&param2=...&param3=...`
+* div parameters:
+  `&lt;div class="hola-embedded-player" v="..." param1="..." param2="..." param3="..."&gt;`
 
-### v=VIDEO_SOURCE
+### `v=VIDEO_SOURCE`
 
-* v=http://../clip.mp4 - http that holds mp4/mkv/avi video
-* v=http://../clip.mp4.torrent - torrent that holds mp4/mkv/avi video
-* v=magnet:... - magnet link that holds mp4/mkv/avi video
+* `v=http://../clip.mp4` - http that holds mp4/mkv/avi video
+* `v=http://../clip.mp4.torrent` - torrent that holds mp4/mkv/avi video
+* `v=magnet:...` - magnet link that holds mp4/mkv/avi video
 
-### sub=SUBTITLES_SOURCE (coming soon)
+### `sub=SUBTITLES_SOURCE` (coming soon)
 
-* srt subtitles from http source: sub=http://../clip_subtitles.srt
-* srt inside zip: sub=http://../clip_subtitles.zip
-* multiple subtitles: sub1=http://... sub2=http://... sub3=http://...
-* explicit subtitles langauge : sub=en,http://...
+* srt subtitles from http source: `sub=http://../clip_subtitles.srt`
+* srt inside zip: `sub=http://../clip_subtitles.zip`
+* multiple subtitles: `sub1=http://... sub2=http://... sub3=http://...`
+* explicit subtitles langauge : `sub=en,http://...`
