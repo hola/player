@@ -79,13 +79,13 @@ Language detection:
 * div parameters:
   `<div class="hola-embedded-player" v="..." param1="..." param2="..." param3="...">`
 
-### `v=VIDEO_SOURCE`
+### v=VIDEO_SOURCE
 
 * `v=http://../clip.mp4` - http that holds mp4/mkv/avi video
 * `v=http://../clip.mp4.torrent` - torrent that holds mp4/mkv/avi video
 * `v=magnet:...` - magnet link that holds mp4/mkv/avi video
 
-### `sub=SUBTITLES_SOURCE` (coming soon)
+### sub=SUBTITLES_SOURCE (coming soon)
 
 * srt subtitles from http source: `sub=http://../clip_subtitles.srt`
 * srt inside zip: `sub=http://../clip_subtitles.zip`
