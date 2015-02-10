@@ -77,7 +77,7 @@ Language detection:
 * url (link or iframe src):
   `http://hola.org/play#v=...&param1=...&param2=...&param3=...`
 * div parameters:
-  `&lt;div class="hola-embedded-player" v="..." param1="..." param2="..." param3="..."&gt;`
+  `<div class="hola-embedded-player" v="..." param1="..." param2="..." param3="...">`
 
 ### `v=VIDEO_SOURCE`
 
