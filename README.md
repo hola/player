@@ -115,8 +115,9 @@ Language detection:
 
 
 ## TODO
-* responsive player ui (auto-fit any iframe size)
 * subtitles
 * auto-download 3rd party subtitles
-* auto-translate subtitles
 * video parameters: poster autoplay, start, duration
+* mp4 player (direct streaming for non torrent files)
+* auto-translate subtitles
+* responsive player ui (auto-fit any iframe size)
