@@ -112,3 +112,11 @@ Language detection:
 * srt inside zip: `sub=http://../clip_subtitles.zip`
 * multiple subtitles: `sub1=http://... sub2=http://... sub3=http://...`
 * explicit subtitles langauge : `sub=en,http://...`
+
+
+## TODO
+* responsive player ui (auto-fit any iframe size)
+* subtitles
+* auto-download 3rd party subtitles
+* auto-translate subtitles
+* video parameters: poster autoplay, start, duration
