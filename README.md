@@ -75,6 +75,7 @@ Language detection:
 
 * url (link or iframe src):
   `http://hola.org/play#v=...&param1=...&param2=...&param3=...`
+   (all params values must be uri-encoded)
 * div parameters:
   `<div class="hola-embedded-player" v="..." param1="..." param2="..." param3="...">`
 
@@ -83,6 +84,27 @@ Language detection:
 * `v=http://../clip.mp4` - http that holds mp4/mkv/avi video
 * `v=http://../clip.mp4.torrent` - torrent that holds mp4/mkv/avi video
 * `v=magnet:...` - magnet link that holds mp4/mkv/avi video
+
+### title=VIDEO_TITLE
+
+* `title="Video Title"` - set the video title. if not specified,  auto-detect video title (from file name, torrent info)
+
+### poster=POSTER_URL (coming soon)
+
+* `poster=http://../poster.png` - http that holds the video poster png
+ 
+### autoplay=0/1 (coming soon)
+
+* `autoplay=0` - default, don't auto start playing the video
+* `autoplay=1` - auto start playing the video
+
+### start=START_SEC (coming soon)
+
+* `start=100` - start playing video 100sec after video start
+
+### duration=DURATION_SEC (coming soon)
+
+* `duration=3600` - set the video duration to be used before the video information is retrieved
 
 ### sub=SUBTITLES_SOURCE (coming soon)
 
