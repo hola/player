@@ -52,7 +52,7 @@ An HTML5 Media Player that instantly streams http, torrents and magnets to the b
 [Live demo](http://jsbin.com/faceyu/9/)
 
 
-### Subtitles (coming soon)
+### Subtitles
 Supported formats:
 - srt
 - vtt
@@ -65,9 +65,12 @@ Language detection:
 ```html
 <iframe src="//hola.org/play_embed#v=xxx.torrent&sub1=eng.srt&sub2=fr.srt"></iframe>
 ```
+[Live demo](http://jsbin.com/yolovaduko/1/)
+
 ```html
 <div class="hola-embedded-player" sub1="eng.srt" sub2="fr.srt"></div>
 ```
+[Live demo](http://jsbin.com/lacotupodu/1/)
 
 ## API parameters
 
@@ -106,7 +109,7 @@ Language detection:
 
 * `duration=3600` - set the video duration to be used before the video information is retrieved
 
-### sub=SUBTITLES_SOURCE (coming soon)
+### sub=SUBTITLES_SOURCE
 
 * srt subtitles from http source: `sub=http://../clip_subtitles.srt`
 * srt inside zip: `sub=http://../clip_subtitles.zip`
@@ -115,7 +118,6 @@ Language detection:
 
 
 ## TODO
-* subtitles
 * auto-download 3rd party subtitles
 * video parameters: poster autoplay, start, duration
 * mp4 player (direct streaming for non torrent files)
