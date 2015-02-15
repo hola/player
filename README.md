@@ -65,12 +65,12 @@ Language detection:
 ```html
 <iframe src="//hola.org/play_embed#v=xxx.torrent&sub1=eng.srt&sub2=fr.srt"></iframe>
 ```
-[Live demo](http://jsbin.com/yolovaduko/1/)
+[Live demo](http://jsbin.com/logozi/1/)
 
 ```html
 <div class="hola-embedded-player" sub1="eng.srt" sub2="fr.srt"></div>
 ```
-[Live demo](http://jsbin.com/lacotupodu/1/)
+[Live demo](http://jsbin.com/butiso/1/)
 
 ## API parameters
 
