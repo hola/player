@@ -76,6 +76,30 @@ Language detection:
 ```
 [Live demo](http://jsbin.com/faceyu/20/)
 
+#### Subtitles from json
+It is possible to specify a json with multiple subtitles options in different languages.
+Example:
+```json
+{
+	"subs": {
+		"vid10001": {
+			"english": [
+				{
+					"url": "https://durian.blender.org/wp-content/content/subtitles/sintel_en.srt"
+				}
+			],
+			"spanish": [
+				{
+					"url": "https://durian.blender.org/wp-content/content/subtitles/sintel_es.srt"
+				}
+			]
+		}
+	}
+}
+```
+* [Json example](http://hola.org/player/api/vid10001)
+* [Live demo](http://jsbin.com/faceyu/26)
+
 ## API parameters
 
 ### parameters formatting
@@ -119,6 +143,7 @@ Language detection:
 * srt inside zip: `sub=http://../clip_subtitles.zip`
 * multiple subtitles: `sub1=http://... sub2=http://... sub3=http://...`
 * explicit subtitles langauge : `sub=en,http://...`
+* subtitles json: `sub=json,http://...`
 
 
 ## TODO
