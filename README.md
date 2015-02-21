@@ -51,6 +51,10 @@ An HTML5 Media Player that instantly streams http, torrents and magnets to the b
 ```
 [Live demo](http://jsbin.com/faceyu/9/)
 
+### HTTP streaming
+Instant streaming of MP4 files without any client-side software installation
+* [Live demo](http://jsbin.com/faceyu/29/)
+* [Live demo](http://hola.org/play#v=http%3A%2F%2F0.s3.envato.com%2Fh264-video-previews%2F80fad324-9db4-11e3-bf3d-0050569255a8%2F490527.mp4)
 
 ### Subtitles
 Supported formats:
