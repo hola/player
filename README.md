@@ -100,6 +100,32 @@ Example:
 * [Json example](http://hola.org/player/api/vid10001)
 * [Live demo](http://jsbin.com/faceyu/26)
 
+### Subtitles plugins
+It is possible to specifiy subtitles plugin for automatic subtitle download:
+* json plugin
+* xmlrpc plugin (SOON)
+
+Add hola_player.json to the root of your site domain to set plugins.
+It is also possible to explicity set a config json to your vide using `config_url=http://`
+
+[hola_player.json example](http://hola.org/player/api/hola_player.json)
+
+### Subtitles json plugin
+Set `OPEN_VIDEO_ID=id` to your video and hola will automatically will download the subtitles.
+```json
+{
+	"plugin": [
+		{
+			"type": "json",
+			"subtitle_url": "http://hola.org/player/api/{OPEN_VIDEO_ID}"
+		}
+	]
+}		
+```
+* [Live demo](http://jsbin.com/faceyu/28)
+
+### Subtitles xmlrpc plugin
+
 ## API parameters
 
 ### parameters formatting
@@ -149,6 +175,10 @@ Example:
 * automatic selection of subtitles (use previous user selection, default to browser locale): `sub_default=on`
 * explicit subtitle language: `sub_default=en`
 * subtitles off: `sub_default=off`
+
+### config_url=JSON_URL
+* explicit set configuration url: `config_url=http://...`
+* put hola_player.json at the root (http://site/hola_player.json) of your site
 
 ## TODO
 * auto-download 3rd party subtitles
