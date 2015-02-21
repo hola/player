@@ -145,6 +145,10 @@ Example:
 * explicit subtitles langauge : `sub=en,http://...`
 * subtitles json: `sub=json,http://...`
 
+### sub_default=VALUE
+* automatic selection of subtitles (use previous user selection, default to browser locale): `sub_default=on`
+* explicit subtitle language: `sub_default=en`
+* subtitles off: `sub_default=off`
 
 ## TODO
 * auto-download 3rd party subtitles
