@@ -112,7 +112,7 @@ It is also possible to explicity set a config json to your vide using `config_ur
 [hola_player.json example](http://hola.org/player/api/hola_player.json)
 
 ### Subtitles json plugin
-Set `OPEN_VIDEO_ID=id` to your video and hola will automatically will download the subtitles.
+Set `OPEN_VIDEO_ID=id` to your video and hola will automatically download the subtitles.
 ```json
 {
 	"plugin": [
