@@ -107,7 +107,7 @@ It is possible to specifiy subtitles plugin for automatic subtitle download:
 * xmlrpc plugin (SOON)
 
 Add hola_player.json to the root of your site domain to set plugins.
-It is also possible to explicity set a config json to your vide using `config_url=http://`
+It is also possible to explicity set a config json to your video using `config_url=http://`
 
 [hola_player.json example](http://hola.org/player/api/hola_player.json)
 
