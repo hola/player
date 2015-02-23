@@ -186,3 +186,4 @@ Set `OPEN_VIDEO_ID=id` to your video and hola will automatically download the su
 * video parameters: poster autoplay, start, duration
 * auto-translate subtitles
 * responsive player ui (auto-fit any iframe size)
+* stream specific file in a video stream
