@@ -34,5 +34,17 @@ The subtitles XML-RPC plugin (subs-xmlrpc) connects to subtitles server using XM
 * `search_subtitles.by_id` - if OPEN_VIDEO_ID is found, the plugin will execute SearchSubtitles function via XML-RPC with the following query: {vid: "{OPEN_VIDEO_ID}"}. You may need to change "vid" to your xml-rpc subtitles provider video id name.
 * `search_subtitles.by_free_text` - if no OPEN_VIDEO_ID is found, the plugin will execute SearchSubtitles function via XML-RPX with the following query: {query: {OPEN_VIDEO_TITLE}}. You may need to change "vid" to your xml-rpc subtitles provider full text search option.
 
-
+### Subtitles JSON Plugin (subs-json)
+The subtitles JSON plugin (subs-json) retrieves subtitles via a json ajax request.
+The video is matched against video id.
+```json
+{
+	"type": "subs-json",
+	"url": "http://hola.org/player/api/vid{OPEN_VIDEO_ID}",
+        "OPEN_VIDEO_ID.regex": "\\<a .*href=\".*hola\\.org.*/vid([0-9]+\\b)"
+}
+```
+#### Configuration
+* `url` - set the url template for fetching the subtitles json for a specific OPEN_VIDEO_ID
+* `OPEN_VIDEO_ID.regex` - this regex is run on the page html where the video resides. it is used to automtically extract the OPEN_VIDEO_ID for video identification. update it to match your page html syntax and video id format
 
