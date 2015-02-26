@@ -7,7 +7,7 @@ The following plugins are supported:
 * Fetching video description (SOON)
 * More to come... Please submit requests for missing api.
 
-### How to start
+### How to develop your first plugin
 To start plugin development:
 * Go to your hola settings [plugins](http://hola.org/access/my/settings#plugins) tab
 * Click "Enter development mode"
