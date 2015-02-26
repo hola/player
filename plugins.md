@@ -2,7 +2,7 @@
 
 The Hola Player has plugin api for extending its functionality.
 The following plugins are supported:
-* Fetching subtitles (under development)
+* Fetching subtitles (see below)
 * Fetching poster (SOON)
 * Fetching video description (SOON)
 * More to come... Please submit requests for missing api.
@@ -14,7 +14,7 @@ To start plugin development:
 * Start creating your plugins
 
 ### Subtitles XML-RPC plugin (subs-xmlrpc)
-The subtitles XML-RPC plugin (subs-xmlrpc) connects to subtitles server using XML-RPC protocol and fetch the subtitles for the video. The video is matched against video id, video title and video hash (SOON).
+The subtitles XML-RPC plugin (subs-xmlrpc) connects to a server using XML-RPC protocol and fetch the subtitles for the video. The video is matched against video id, video title and video hash (SOON).
 ```json
 {
 	"type": "subs-xmlrpc",
