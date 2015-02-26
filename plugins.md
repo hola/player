@@ -7,6 +7,12 @@ The following plugins are supported:
 * Fetching video description (SOON)
 * More to come... Please submit requests for missing api.
 
+### How to start
+To start plugin development:
+* Go to your hola settings [plugins](http://hola.org/access/my/settings#plugins) tab
+* Click "Enter development mode"
+* Start creating your plugins
+
 ### Subtitles XML-RPC plugin (subs-xmlrpc)
 The subtitles XML-RPC plugin (subs-xmlrpc) connects to subtitles server using XML-RPC protocol and fetch the subtitles for the video. The video is matched against video id, video title and video hash (SOON).
 ```json
@@ -47,4 +53,11 @@ The video is matched against video id.
 #### Configuration
 * `url` - set the url template for fetching the subtitles json for a specific OPEN_VIDEO_ID
 * `OPEN_VIDEO_ID.regex` - this regex is run on the page html where the video resides. it is used to automtically extract the OPEN_VIDEO_ID for video identification. update it to match your page html syntax and video id format
+
+### Publish your plugin
+To publish your plugin:
+* Create a shared link in [plugins](http://hola.org/access/my/settings#plugins) tab in your hola settings.
+* Publish your plugin link on the web (your site, your github page, other)
+* Email [api@hola.org](mailto:api@hola.org) your site link and we will publish it in our plugin developers section
+
 
