@@ -38,7 +38,7 @@ The subtitles XML-RPC plugin (subs-xmlrpc) connects to subtitles server using XM
 * `user_agent` - set the user_agent to your subtitle xml-rpc server user agent
 * `OPEN_VIDEO_ID.regex` - this regex is run on the page html where the video resides. it is used to automtically extract the OPEN_VIDEO_ID for video identification. update it to match your page html syntax and video id format
 * `search_subtitles.by_id` - if OPEN_VIDEO_ID is found, the plugin will execute SearchSubtitles function via XML-RPC with the following query: {vid: "{OPEN_VIDEO_ID}"}. You may need to change "vid" to your xml-rpc subtitles provider video id name.
-* `search_subtitles.by_free_text` - if no OPEN_VIDEO_ID is found, the plugin will execute SearchSubtitles function via XML-RPX with the following query: {query: {OPEN_VIDEO_TITLE}}. You may need to change "vid" to your xml-rpc subtitles provider full text search option.
+* `search_subtitles.by_free_text` - if no OPEN_VIDEO_ID is found, the plugin will execute SearchSubtitles function via XML-RPC with the following query: {query: {OPEN_VIDEO_TITLE}}. You may need to change "vid" to your xml-rpc subtitles provider full text search option.
 
 ### Subtitles JSON Plugin (subs-json)
 The subtitles JSON plugin (subs-json) retrieves subtitles via a json ajax request.
@@ -52,7 +52,7 @@ The video is matched against video id.
 ```
 #### Configuration
 * `url` - set the url template for fetching the subtitles json for a specific OPEN_VIDEO_ID
-* `OPEN_VIDEO_ID.regex` - this regex is run on the page html where the video resides. it is used to automtically extract the OPEN_VIDEO_ID for video identification. update it to match your page html syntax and video id format
+* `OPEN_VIDEO_ID.regex` - this regex is run on the page HTML where the video resides. it is used to automtically extract the OPEN_VIDEO_ID for video identification. update it to match your page HTML syntax and video id format
 
 ### Publish your plugin
 To publish your plugin:
