@@ -123,6 +123,39 @@ Possible inputs:
 * OPEN_VIDEO_TITLE - The title of the current video
 * HTML selector - Select HTML elements from the current page html and then get new variables from the elements attirbute or innerHTML
 
+#### Example: Parse video title and extract publish year
+```json
+{
+	"parse": [
+		{
+			"regex": {
+				"OPEN_VIDEO_TITLE": "\\b(\\d{4})\\b",
+				"set": {
+					"YEAR": "{1}"
+				}
+			}
+		}
+	]
+}
+```
+
+#### Example: Parse page HTML and extract video id
+``` json
+{
+    "parse": [
+        {
+            "selector": "a[href*=\"hola.org/\"]",
+            "regex": {
+                "attr.href": "hola.org/.*/vid([0-9]+\\b)",
+                "set": {
+                    "OPEN_VIDEO_ID": "{1}"
+                }
+            }
+        }
+    ]
+}
+```
+
 ### Publish your plugin
 To publish your plugin:
 * Create a share link in [plugins](http://hola.org/access/my/settings#plugins) tab in your hola settings.
