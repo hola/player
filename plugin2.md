@@ -20,6 +20,10 @@ To start plugin development:
 - "fetch" - A plugin MUST contain a "fetch" section. The fetch section defines the differnt ways to get subtitles for the current video.
 
 ### Example: Fetch subtitles with XML-RPC
+
+`parse` section scans for `<a>` elements with `href` to `hola.org`, and with regex matching extracts the variable `{OPEN_VIDEO_ID}`.
+If `{OPEN_VIDEO_ID}` is set, `fetch` will then send XML-RPC requests, and use the responses for subtitles.
+
 ```json
 {
 	"name": "Subtitles example for xml-rpc",
