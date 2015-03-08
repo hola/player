@@ -84,6 +84,39 @@ To start plugin development:
 }
 ```
 
+### Example: Fetch subtitles with JSON
+```json
+{
+	"name": "Subtitles example for json",
+	"author": "John Smith",
+	"parse": [
+		{
+			"selector": "a[href*=\"hola.org/\"]",
+			"regex": {
+				"attr.href": "hola.org/.*/vid([0-9]+\\b)",
+				"set": {
+					"OPEN_VIDEO_ID": "{1}"
+				}
+			}
+		}
+	],
+	"fetch": [
+		{
+			"priority": 2,
+			"json": "http://hola.org/player/api/vid{OPEN_VIDEO_ID}",
+			"response": {
+				"path": "subs.vid{OPEN_VIDEO_ID}.*.*",
+				"subtitles": {
+					"locale": "..",
+					"host": "hola.org",
+					"zip_link": "url"
+				}
+			}
+		}
+	]
+}
+```
+
 ### Publish your plugin
 To publish your plugin:
 * Create a share link in [plugins](http://hola.org/access/my/settings#plugins) tab in your hola settings.
