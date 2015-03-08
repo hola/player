@@ -2,10 +2,10 @@
 
 The Hola Player has plugin api for extending its functionality.
 The following plugins are supported:
-* Fetching subtitles (see below)
+* Fetching subtitles
 * Fetching poster (SOON)
 * Search (SOON)
-* More to come... Please submit requests for missing api.
+* ... want more? submit requests for missing api!
 
 ### How to develop your first plugin
 To start plugin development:
