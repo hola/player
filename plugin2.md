@@ -15,14 +15,15 @@ To start plugin development:
 
 ### Plugin structure
 - Hola plugin is described as a JSON object
-- OPEN_VIDEO_TITLE - This variable is the video title (extracted from the the video meta data) and is available for your plugin as input. Use it to find subtitles for the current video.
-- "parse" - A plugin MAY contain a "parse" section for getting more variables (example, you can run regex on the page html to find your video id and then use that video id to fetch subtitles for the video identified by the video id).
-- "fetch" - A plugin MUST contain a "fetch" section. The fetch section defines the differnt ways to get subtitles for the current video.
+- `OPEN_VIDEO_TITLE` - This variable is the video title (extracted from the the video meta data) and is available for your plugin as input. Use it to find subtitles for the current video.
+- `parse` - A plugin MAY contain a `parse` section for getting more variables (example, you can run regex on the page html to find your video id and then use that video id to fetch subtitles for the video identified by the video id).
+- `fetch` - A plugin MUST contain a `fetch` section. The `fetch` section defines the differnt ways to get subtitles for the current video.
 
 ### Example: Fetch subtitles with XML-RPC
 
 `parse` section scans for `<a>` elements with `href` to `hola.org`, and with regex matching extracts the variable `{OPEN_VIDEO_ID}`.
-If `{OPEN_VIDEO_ID}` is set, `fetch` will then send XML-RPC requests, and use the responses for subtitles.
+If `{OPEN_VIDEO_ID}` is set, `fetch` will then send XML-RPC request to find subtitles by the video id, and use the responses for subtitles.
+If there is no {OPEN_VIDEO_ID}, `fetch` will send XML-RPC requests to find subtitles by the video title, and use the responses for subtitles.
 
 ```json
 {
@@ -121,8 +122,8 @@ If `{OPEN_VIDEO_ID}` is set, `fetch` will then send XML-RPC requests, and use th
 }
 ```
 
-### Parse
-The parse section is an array of parsers. Each parser is used to extract variables that can be used to match the current video.  
+### `parse`
+The `parse` section is an array of parsers. Each parser is used to extract variables that will be used to match the current video.  
 Possible inputs:
 * OPEN_VIDEO_TITLE - The title of the current video
 * HTML selector - Select HTML elements from the current page html and then get new variables from the elements attirbute or innerHTML
@@ -173,5 +174,5 @@ Later on `{OPEN_VIDEO_ID}` variable can be used in `fetch` section.
 To publish your plugin:
 * Create a share link in [plugins](http://hola.org/access/my/settings#plugins) tab in your hola settings.
 * Publish your plugin link on the web (your site, your github page, other)
-* Email [api@hola.org](mailto:api@hola.org) your site link and we will publish it in our plugin developers section
+* Send us a pull request we will publish it in our plugin developers section
 
