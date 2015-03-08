@@ -124,6 +124,10 @@ Possible inputs:
 * HTML selector - Select HTML elements from the current page html and then get new variables from the elements attirbute or innerHTML
 
 #### Example: Parse video title and extract publish year
+
+Extracts 4 digit year from the video title, and sets the `{YEAR}` variable for later use by the `fetch` section.
+`{1}` is the regex matching result on the video title.
+
 ```json
 {
 	"parse": [
@@ -140,6 +144,11 @@ Possible inputs:
 ```
 
 #### Example: Parse page HTML and extract video id
+
+Select all `<a>` elements with link to `hola.org` and regex match the element's href attribute. If matched, set `OPEN_VIDEO_ID`
+to regex result `{1}`.
+Later on `{OPEN_VIDEO_ID}` variable can be used in `fetch` section.
+
 ``` json
 {
     "parse": [
