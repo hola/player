@@ -117,6 +117,12 @@ To start plugin development:
 }
 ```
 
+### Parse
+The parse section is an array of parsers. Each parser is used to extract variables that can be used to match the current video.  
+Possible inputs:
+* OPEN_VIDEO_TITLE - The title of the current video
+* HTML selector - Select HTML elements from the current page html and then get new variables from the elements attirbute or innerHTML
+
 ### Publish your plugin
 To publish your plugin:
 * Create a share link in [plugins](http://hola.org/access/my/settings#plugins) tab in your hola settings.
