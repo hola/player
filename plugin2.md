@@ -39,7 +39,7 @@ To start plugin development:
 			"method": "SearchSubtitles",
 			"args": [
 				{
-					"vid": "{OPEN_VIDE_ID}"
+					"vid": "{OPEN_VIDEO_ID}"
 				}
 			],
 			"response": {
