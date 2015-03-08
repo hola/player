@@ -90,6 +90,9 @@ If there is no {OPEN_VIDEO_ID}, `fetch` will send XML-RPC requests to find subti
 ```
 
 ### Example: Fetch subtitles with JSON
+`parse` section scans for `<a>` elements with `href` to `hola.org`, and with regex matching extracts the variable `{OPEN_VIDEO_ID}`.
+If `{OPEN_VIDEO_ID}` is set, `fetch` will then send `ajax` request and parse response as `JSON` to find subtitles by the video id, and use the responses for subtitles.
+
 ```json
 {
 	"name": "Subtitles example for json",
