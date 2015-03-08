@@ -13,7 +13,13 @@ To start plugin development:
 * Click "Enter development mode"
 * Create a new plugin
 
-### XML-RPC Protocol
+### Plugin structure
+- Hola plugin is described as a JSON object
+- OPEN_VIDEO_TITLE - This variable is the video title (extracted from the the video meta data) and is available for your plugin as input. Use it to find subtitles for the current video.
+- "parse" - A plugin MAY contain a "parse" section for getting more variables (example, you can run regex on the page html to find your video id and then use that video id to fetch subtitles for the video identified by the video id).
+- "fetch" - A plugin MUST contain a "fetch" section. The fetch section defines the differnt ways to get subtitles for the current video.
+
+### Example: Fetch subtitles with XML-RPC
 ```json
 {
 	"name": "Subtitles example for xml-rpc",
