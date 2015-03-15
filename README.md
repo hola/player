@@ -181,6 +181,20 @@ Set `OPEN_VIDEO_ID=id` to your video and hola will automatically download the su
 * explicit set configuration url: `config_url=http://...`
 * put hola_player.json at the root (http://site/hola_player.json) of your site
 
+## Events
+* hola_vjs.play
+* hola_vjs.pause
+* hola_vjs.ended
+* hola_vjs.loadedalldata
+* hola_vjs.playing
+* hola_vjs.timeupdate
+* hola_vjs.durationchange
+* hola_vjs.progress
+* hola_vjs.fullscreenchange
+* hola_vjs.error
+* hola_vjs.volumechange
+* hola_vjs.waiting 
+
 ## TODO
 * auto-download 3rd party subtitles
 * video parameters: poster autoplay, start, duration
