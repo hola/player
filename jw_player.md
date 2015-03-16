@@ -8,7 +8,7 @@ It is possible to support both JW Player and Hola Player on the same page, enabl
   `#player_display_button` and `.jwpreview.jwbestfit`
 - The video to play is taken from global `config.file`
 - Video title is taken from the text of `.videotitle span` (or from video file name)
-- Set `use_hola` to toggle loading Hola Player to JW Player
+- Set `use_hola` to toggle loading Hola Player or JW Player
 - Set `plugin_url` to load plugins from another source
 
 ```js
