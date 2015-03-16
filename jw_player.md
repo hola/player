@@ -18,7 +18,7 @@ function start_play(v){
         console.warn('starting player without plugin - no subtitles');
     var title = $($('.videotitle span')[0]).text()||'Video Title';
     var player_url = '//hola.org/be_mp_popover#v='+encodeURIComponent(v)+
-        '&title='+encodeURIComponent(title)+'&responsive=1'
+        '&title='+encodeURIComponent(title)+'&responsive=1'+
         '&config='+encodeURIComponent(JSON.stringify({plugin: plugin}));
     var $div = $('<div>');
     $div.attr('style', 'position: absolute; z-index: 1000; width: 100%; '+
