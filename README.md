@@ -151,6 +151,10 @@ Set `OPEN_VIDEO_ID=id` to your video and hola will automatically download the su
 * `player_type=html5` - use html5 player (default)
 * `player_type=flash` - user flash player
 
+### responsive=0/1
+* `responsive=0` - default, player size is static
+* `responsive=1` - player size depends on iframe size
+
 ### poster=POSTER_URL (coming soon)
 
 * `poster=http://../poster.png` - http that holds the video poster png
