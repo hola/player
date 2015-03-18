@@ -18,7 +18,7 @@ function start_play(v){
         console.warn('starting player without plugin - no subtitles');
     var title = $($('.videotitle span')[0]).text()||'Video Title';
     var player_url = '//hola.org/be_mp_popover#v='+encodeURIComponent(v)+
-        '&title='+encodeURIComponent(title)+'&responsive=1'+
+        '&title='+encodeURIComponent(title)+'&responsive=1&save_bandwidth=0'+
         '&config='+encodeURIComponent(JSON.stringify({plugin: plugin}));
     var $div = $('<div>');
     $div.attr('style', 'position: absolute; z-index: 1000; width: 100%; '+
@@ -43,9 +43,10 @@ function get_plugin(){
 
 function load_player(){
     var is_chrome = window.chrome;
+    var is_firefox = /\bfirefox\b/i.test(navigator.userAgent);
     var is_windows = /\bwindows\b/i.test(navigator.userAgent);
     // XXX: set use_hola to enable hola player
-    var use_hola = is_windows && is_chrome;
+    var use_hola = is_windows && (is_chrome || is_firefox);
     if (!use_hola)
         return;
     var v = config.file;
