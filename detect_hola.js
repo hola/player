@@ -1,3 +1,5 @@
+// the code assumes jquery is loaded
+
 // use check_hola_ext_installed() to detect if hola extension is installed
 // or not
 function check_hola_ext_installed(found_cb, not_found_cb){
