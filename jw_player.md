@@ -13,9 +13,16 @@ It is possible to support both JW Player and Hola Player on the same page, enabl
 - Set `use_hola` to toggle loading Hola Player or JW Player
 - Set `plugin_url` to load plugins from another source
 
+#### Static loading of play_loader.js (preferred)
 ```html
 <script src="//hola.org/play_loader.js"></script>
 ```
+#### Dynamic loading of play_loader.js
+Note: only load play_loader.js once (either static or dynamic)
+```js
+$('<script>', {src: '//hola.org/play_loader.js'}).appendTo('body')
+```
+#### Integrate code below
 ```js
 function hola_player_init(){
     // XXX: set browser to enable hola player on specific browser
