@@ -3,6 +3,8 @@ When migrating from JW Player (or other player) to Hola Player, you may want to 
 It is possible to support both JW Player and Hola Player on the same page, enabling Hola Player just for a subset of platform (eg. chrome windows).
 
 ### Example JW Player/Hola Player
+- Load hola script //hola.org/play_loader.js
+- Integrate the code below in your site.
 - The code below assumes jquery is used. The code must be called after jquery is loaded
 - The following html elements are used to start playing the video
   `#player_display_button` and `.jwpreview.jwbestfit`
@@ -11,6 +13,9 @@ It is possible to support both JW Player and Hola Player on the same page, enabl
 - Set `use_hola` to toggle loading Hola Player or JW Player
 - Set `plugin_url` to load plugins from another source
 
+```html
+<script src="//hola.org/play_loader.js"></script>
+```
 ```js
 function hola_player_init(){
     // XXX: set browser to enable hola player on specific browser
