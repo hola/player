@@ -12,57 +12,52 @@ It is possible to support both JW Player and Hola Player on the same page, enabl
 - Set `plugin_url` to load plugins from another source
 
 ```js
-function start_play(v){
-    // XXX: set plugin_url to fetch plugin for subtitles
-    var plugin_url = location.protocol+'//'+location.host+
-        '/assets/js/hl_plugin.json';
-    var title = $($('.videotitle span')[0]).text()||'Video Title';
-    var player_url = '//hola.org/be_mp_popover#v='+encodeURIComponent(v)+
-        '&title='+encodeURIComponent(title)+'&responsive=1&is_embed=1'+
-        '&config_url='+encodeURIComponent(plugin_url);
-    var $div = $('<div>');
-    $div.attr('style', 'position: absolute; z-index: 1000; width: 100%; '+
-        'height: 100%; left: 50%; top: 50%');
-    var $frame = $('<iframe>', {src: player_url, width: '100%', height: '100%',
-        frameborder: 0, allowfullscreen: 'y'}).attr('is_embed', 1);
-    $frame.attr('style', 'position: relative; width: 100%; height: 100%; '+
-        'left: -50%; top: -50%');
-    $frame.appendTo($div);
-    $div.appendTo($('body'));
-}
-
-function load_player(){
-    var is_chrome = window.chrome;
-    var is_windows = /\bwindows\b/i.test(navigator.userAgent);
-    // XXX: set use_hola to enable hola player
-    var use_hola = is_windows && is_chrome;
-    if (!use_hola)
+function hola_player_init(){
+    // XXX: set browser to enable hola player on specific browser
+    // (set browsers = [] to use hola on all compatible browser
+    var browsers = ['chrome windows', 'firefox windows'];
+    if (!window.hola_compatible_browser ||
+        !window.hola_compatible_browser(browsers))
+    {
         return;
-    var v = config.file;
+    }
+    var $container = $('<div>').hide().appendTo($('body'))
+    .attr('style', 'position: absolute; z-index: 1000; '+
+        'width: 100%; height: 100%; left: 50%; top: 50%');
     $('#player_display_button, .jwpreview.jwbestfit')
     .click(function(event){
         event.preventDefault();
         event.stopPropagation();
         $('#player_display').hide();
-        start_play(v);
+        // XXX: change opt values
+        // v: full url of video to play
+        // title: video title
+        // pluign: full url of the subtitles plugin
+        // container: the html element were to put the player
+        window.hola_load_player({
+            v: config.file,
+            title: $($('.videotitle span')[0]).text(),
+            plugin_url: location.protocol+'//'+location.host+
+                '/assets/js/hl_plugin.json',
+            container: $container});
     });
+    // XXX: add code to handle player events
     window.addEventListener('message', function(e){
         if (!e.data || !e.data.id)
             return;
         if (!/hola_vjs\..*/.test(e.data.id))
             return;
-        console.log('got '+e.data.id);
     });
 }
 
 function init_timer(){
-    if (!$ || !$('#player_display_button') || !$('#player_display_button')[0]
+    if (!$('#player_display_button') || !$('#player_display_button')[0]
         || !$('.jwpreview.jwbestfit') || !$('.jwpreview.jwbestfit')[0])
     {
         setTimeout(init_timer, 250);
         return;
     }
-    load_player();
+    hola_player_init();
 }
 
 init_timer();
