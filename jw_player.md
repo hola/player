@@ -12,14 +12,17 @@ It is possible to support both JW Player and Hola Player on the same page, enabl
 - Set `plugin_url` to load plugins from another source
 
 ```js
+'use strict'; /*jslint browser:true*/ /*global $, config*/
+
 var plugin;
 function start_play(v){
-    if (!plugin)
-        console.warn('starting player without plugin - no subtitles');
+    // XXX: set plugin_url to fetch plugin for subtitles
+    var plugin_url = location.protocol+'//'+location.host+
+        '/assets/js/hl_plugin.json';
     var title = $($('.videotitle span')[0]).text()||'Video Title';
     var player_url = '//hola.org/be_mp_popover#v='+encodeURIComponent(v)+
-        '&title='+encodeURIComponent(title)+'&responsive=1&save_bandwidth=0'+
-        '&config='+encodeURIComponent(JSON.stringify({plugin: plugin}));
+        '&title='+encodeURIComponent(title)+'&responsive=1&is_embed=1'+
+        '&config_url='+encodeURIComponent(plugin_url);
     var $div = $('<div>');
     $div.attr('style', 'position: absolute; z-index: 1000; width: 100%; '+
         'height: 100%; left: 50%; top: 50%');
@@ -31,22 +34,11 @@ function start_play(v){
     $div.appendTo($('body'));
 }
 
-function get_plugin(){
-    // XXX: set plugin_url to fetch plugin for subtitles
-    var plugin_url = '/assets/js/hl_plugin.json';
-    $.ajax({url: plugin_url, dataType: 'json'})
-    .done(function(data){ plugin = data; })
-    .fail(function(xhr, status, err){
-        console.error('failed get_plugin '+status+' '+plugin_url);
-    });
-}
-
 function load_player(){
     var is_chrome = window.chrome;
-    var is_firefox = /\bfirefox\b/i.test(navigator.userAgent);
     var is_windows = /\bwindows\b/i.test(navigator.userAgent);
     // XXX: set use_hola to enable hola player
-    var use_hola = is_windows && (is_chrome || is_firefox);
+    var use_hola = is_windows && is_chrome;
     if (!use_hola)
         return;
     var v = config.file;
@@ -64,7 +56,6 @@ function load_player(){
             return;
         console.log('got '+e.data.id);
     });
-    get_plugin();
 }
 
 function init_timer(){
