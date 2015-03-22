@@ -12,9 +12,6 @@ It is possible to support both JW Player and Hola Player on the same page, enabl
 - Set `plugin_url` to load plugins from another source
 
 ```js
-'use strict'; /*jslint browser:true*/ /*global $, config*/
-
-var plugin;
 function start_play(v){
     // XXX: set plugin_url to fetch plugin for subtitles
     var plugin_url = location.protocol+'//'+location.host+
