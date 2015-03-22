@@ -46,12 +46,14 @@ function hola_player_init(){
         // title: video title
         // pluign: full url of the subtitles plugin
         // container: the html element were to put the player
+        // save_bandwidth: set to use hola peer network to save bandwidth
         window.hola_load_player({
             v: config.file,
             title: $($('.videotitle span')[0]).text(),
             plugin_url: location.protocol+'//'+location.host+
                 '/assets/js/hl_plugin.json',
-            container: $container});
+            container: $container,
+            save_bandwidth: true});
     });
     // XXX: add code to handle player events
     window.addEventListener('message', function(e){
