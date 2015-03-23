@@ -50,6 +50,7 @@ function hola_player_init(){
         window.hola_load_player({
             v: config.file,
             title: $($('.videotitle span')[0]).text(),
+            subtitles: config.tracks,
             plugin_url: location.protocol+'//'+location.host+
                 '/assets/js/hl_plugin.json',
             container: $container,
@@ -76,3 +77,14 @@ function init_timer(){
 
 init_timer();
 ```
+
+### hola_load_player(opt)
+Use hola_load_player to start the hola player.  
+Options:
+#### `v`, string
+The video to play
+#### `title`, string
+The title for the video
+#### `subtitles` - array
+Set subtitles to use for the video. eg:  
+`{subtitles: [{file: 'http://xxx/video.mp4', label: 'English', default: true}]`
