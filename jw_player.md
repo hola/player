@@ -82,9 +82,15 @@ init_timer();
 Use hola_load_player to start the hola player.  
 Options:
 #### `v`, string
-The video to play
+The video to play (full url)
 #### `title`, string
 The title for the video
 #### `subtitles` - array
 Set subtitles to use for the video. eg:  
 `{subtitles: [{file: 'http://xxx/video.mp4', label: 'English', default: true}]`
+#### `plugin_url`, string
+The url for the plugin to use to automatically download subtitles and video poster
+#### `container`, string/dom element/jquery element
+The dom element where the player will be inserted
+#### `save_bandwidth`, true/false
+Set to use hola peer network to save bandwidth
