@@ -59,7 +59,7 @@ Instant streaming of MP4 files without any client-side software installation
 
 ### Responsive player
 Fit player to available space
-* [Live demo](http://jsbin.com/caqogicefu/1/)
+* [Live demo](http://jsbin.com/vitira/1/)
 
 ### Subtitles
 Supported formats:
