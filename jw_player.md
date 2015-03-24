@@ -31,7 +31,9 @@ $('<script>', {src: '//hola.org/play_loader.js'}).appendTo('body')
 function hola_player_init(){
     // XXX: set browser to enable hola player on specific browser
     // (set browsers = [] to use hola on all compatible browser
-    var browsers = ['chrome windows', 'firefox windows'];
+    // to enable only on speicfic browsers use:
+    // ['chrome', 'firefox'] or ['chrome windows', 'firefox windows'])
+    var browsers = [];
     if (!window.hola_compatible_browser ||
         !window.hola_compatible_browser(browsers))
     {
