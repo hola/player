@@ -2,6 +2,10 @@
 When migrating from JW Player (or other player) to Hola Player, you may want to do it step by step.
 It is possible to support both JW Player and Hola Player on the same page, enabling Hola Player just for a subset of platform (eg. chrome windows).
 
+## Before you start
+- If you block requests depending on the `Referer` header, make sure to whitelist hola.org
+  All the requests will have `Reffer` set to `http://hola.org/be_mp_popover?rc=1427206453284`
+
 ### Example JW Player/Hola Player
 - Load hola script //hola.org/play_loader.js
 - Integrate the code below in your site.
