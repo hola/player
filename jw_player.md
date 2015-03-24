@@ -87,7 +87,7 @@ The video to play (full url)
 The title for the video
 #### `subtitles` - array
 Set subtitles to use for the video. eg:  
-`{subtitles: [{file: 'http://xxx/video.mp4', label: 'English', default: true}]`
+`{subtitles: [{file: 'http://xxx/subtitle.srt', label: 'English', default: true}]`
 #### `plugin_url`, string
 The url for the plugin to use to automatically download subtitles and video poster
 #### `container`, string/dom element/jquery element
