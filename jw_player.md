@@ -49,12 +49,15 @@ function hola_player_init(){
         $('#player_display').hide();
         // XXX: change opt values
         // v: full url of video to play
+        // sources: array of multiple quality of the same video
+        //  [{file: 'http://.../x.mp4', label: '720'], {file: 'http://.../x2.mp4', label: '480'}]
         // title: video title
         // pluign: full url of the subtitles plugin
         // container: the html element were to put the player
         // save_bandwidth: set to use hola peer network to save bandwidth
         window.hola_load_player({
             v: config.file,
+            sources: config.sources,
             title: $($('.videotitle span')[0]).text(),
             subtitles: config.tracks,
             plugin_url: location.protocol+'//'+location.host+
@@ -89,6 +92,9 @@ Use hola_load_player to start the hola player.
 Options:
 #### `v`, string
 The video to play (full url)
+#### `sources`, array
+Array of multiple quality of the same video, eg:
+[{file: 'http://.../x.mp4', label: '720'], {file: 'http://.../x2.mp4', label: '480'}]
 #### `title`, string
 The title for the video
 #### `subtitles` - array
