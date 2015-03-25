@@ -61,6 +61,9 @@ Instant streaming of MP4 files without any client-side software installation
 Fit player to available space
 * [Live demo](http://jsbin.com/vitira/1/)
 
+### Multiple video quality options (HD mode)
+* [Live demo](hola.org/play#sources=%5B%7B%22file%22%3A%22http%3A%2F%2Fmirrorblender.top-ix.org%2Fmovies%2Fsintel-2048-surround.mp4%22%2C%22label%22%3A%222048x872%22%7D%2C%7B%22file%22%3A%22http%3A%2F%2Fmirrorblender.top-ix.org%2Fmovies%2Fsintel-1024-surround.mp4%22%2C%22label%22%3A%221024x436%22%2C%22default%22%3Atrue%7D%5D)
+
 ### Subtitles
 Supported formats:
 - srt
@@ -146,6 +149,9 @@ Set `OPEN_VIDEO_ID=id` to your video and hola will automatically download the su
 * `v=http://../clip.mp4` - http that holds mp4/mkv/avi video
 * `v=http://../clip.mp4.torrent` - torrent that holds mp4/mkv/avi video
 * `v=magnet:...` - magnet link that holds mp4/mkv/avi video
+
+### sources=MULTIPLE_SOURCES
+* `sources=MULTIPLE_SOURCS` - where MULTIPLE SOURCES is `encodeURIComponent(JSON.stringify(array))` and `array = [{file: 'http://.../clip.mp4', label: '720'}, {file: 'http://.../clip4_2.mp4, label: '480'}]`
 
 ### title=VIDEO_TITLE
 
