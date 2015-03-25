@@ -54,7 +54,7 @@ function hola_player_init(){
         // title: video title
         // pluign: full url of the subtitles plugin
         // container: the html element were to put the player
-        // save_bandwidth: set to use hola peer network to save bandwidth
+        // cdn: set to use hola peer network to save bandwidth
         window.hola_load_player({
             v: config.file,
             sources: config.sources,
@@ -63,7 +63,7 @@ function hola_player_init(){
             plugin_url: location.protocol+'//'+location.host+
                 '/assets/js/hl_plugin.json',
             container: $container,
-            save_bandwidth: true});
+            cdn: true});
     });
     // XXX: add code to handle player events
     window.addEventListener('message', function(e){
@@ -104,7 +104,7 @@ Set subtitles to use for the video. eg:
 The url for the plugin to use to automatically download subtitles and video poster
 #### `container`, string/dom element/jquery element
 The dom element where the player will be inserted
-#### `save_bandwidth`, true/false
+#### `cdn`, true/false
 Set to use hola peer network to save bandwidth
 ### `player_type`, html5/flash
 Set player type, default is html5
