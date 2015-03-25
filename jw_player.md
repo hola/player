@@ -100,3 +100,5 @@ The url for the plugin to use to automatically download subtitles and video post
 The dom element where the player will be inserted
 #### `save_bandwidth`, true/false
 Set to use hola peer network to save bandwidth
+### `player_type`, html5/flash
+Set player type, default is html5
