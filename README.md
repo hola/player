@@ -218,7 +218,8 @@ Users will get an option to add to their browser the Hola engine that connects t
 * hola_vjs.fullscreenchange
 * hola_vjs.error
 * hola_vjs.volumechange
-* hola_vjs.waiting 
+* hola_vjs.waiting
+* hola_vjs.qualitychange
 
 ## TODO
 * auto-download 3rd party subtitles
