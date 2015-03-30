@@ -111,7 +111,7 @@ Example:
 ### Subtitles plugins
 It is possible to specifiy subtitles plugin for automatic subtitle download:
 * json plugin
-* xmlrpc plugin (SOON)
+* xmlrpc plugin
 
 Add hola_player.json to the root of your site domain to set plugins.
 It is also possible to explicity set a config json to your video using `config_url=http://`
@@ -172,9 +172,9 @@ Users will get an option to add to their browser the Hola engine that connects t
 * `responsive=0` - default, player size is static
 * `responsive=1` - player size depends on iframe size
 
-### poster=POSTER_URL (coming soon)
+### poster=POSTER_URL
 
-* `poster=http://../poster.png` - http that holds the video poster png
+* `poster=http://../poster.png` - url for the video poster image
  
 ### autoplay=0/1 (coming soon)
 
@@ -184,6 +184,10 @@ Users will get an option to add to their browser the Hola engine that connects t
 ### start=START_SEC (coming soon)
 
 * `start=100` - start playing video 100sec after video start
+
+### start_at=START_PERCENT
+
+* `start_at=10` - start playing video 10% after video start
 
 ### duration=DURATION_SEC (coming soon)
 
@@ -220,10 +224,3 @@ Users will get an option to add to their browser the Hola engine that connects t
 * hola_vjs.volumechange
 * hola_vjs.waiting
 * hola_vjs.qualitychange
-
-## TODO
-* auto-download 3rd party subtitles
-* video parameters: poster autoplay, start, duration
-* auto-translate subtitles
-* responsive player ui (auto-fit any iframe size)
-* stream specific file in a video stream
