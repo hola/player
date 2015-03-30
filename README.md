@@ -174,7 +174,8 @@ Users will get an option to add to their browser the Hola engine that connects t
 
 ### poster=POSTER_URL
 
-* `poster=http://../poster.png` - url for the video poster image
+* `poster=http://../poster.png` - url for the video poster image  
+[Live demo](http://jsbin.com/wozipo/2/)
  
 ### autoplay=0/1 (coming soon)
 
