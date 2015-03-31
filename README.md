@@ -20,6 +20,8 @@ An HTML5 Media Player that instantly streams http, torrents and magnets to the b
 * seek/reposition
 * subtitles
 
+** Please note that the use of the Hola Player is subject to its terms of use, available on http://hola.org/legal_publishers
+
 ### &lt;a&gt; link
 ```html
 <a href="http://hola.org/play#v=http%3A%2F%2Fdistribution.bbb3d.renderfarming.net%2Fvideo%2Fmp4%2Fbbb_sunflower_1080p_30fps_normal.mp4.torrent">
