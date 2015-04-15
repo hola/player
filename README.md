@@ -15,7 +15,8 @@ An HTML5 Media Player that instantly streams http, torrents and magnets to the b
 * no software installation for http links
 * embeddable as div, iframe, script or simple link to video
 * video formats: mp4, mkv and avi
-* browsers: Chrome, Firefox. coming soon: IE.
+* browsers: Chrome, Firefox, IE, Safari
+* mobile: Android App. comming soon: mobile browsers
 * mobile: coming soon: Android App.
 * seek/reposition
 * subtitles
