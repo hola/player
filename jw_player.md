@@ -28,6 +28,11 @@ $('<script>', {src: '//hola.org/play_loader.js'}).appendTo('body')
 ```
 #### Integrate code below
 ```js
+var config = jwplayer().config;
+if (!config || !config.file)
+    config = jwplayer().getPlaylistItem();
+if (!config || !config.file) // XXX: change video to play
+    config = {file: 'http://cdn4.hola.org/static/mp4/sintel.mp4'};
 function hola_player_init(){
     // XXX: set browser to enable hola player on specific browser
     // (set browsers = [] to use hola on all compatible browser
