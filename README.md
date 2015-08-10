@@ -211,8 +211,8 @@ Users will get an option to add to their browser the Hola engine that connects t
 * subtitles off: `sub_default=off`
 
 ### config_url=JSON_URL
-* explicit set configuration url: `config_url=http://...`
-* put hola_player.json at the root (http://site/hola_player.json) of your site
+* explicit set configuration url: `config_url=http://yoursite.com/path/to/your_player_config.json`
+* put `hola_player.json` at the root of your site: `http://yoursite.com/hola_player.json`
 
 ## Events
 * hola_vjs.play
