@@ -17,8 +17,7 @@ An HTML5/Flash Media Player that instantly streams http, torrents and magnets to
 * video formats: m3u8, mp4, mkv, avi, asf, asx, avi, divx, flv, m2v, m4p, m4v, mkv, mov,
   mpe, mpeg, mpg, mpg4, ogg, ogv, vob, webm, wmv, wvx, 3g2, 3gp, 3gpp, 3gpp2
 * browsers: Chrome, Firefox, IE, Safari
-* mobile: Android App. comming soon: mobile browsers
-* mobile: coming soon: Android App.
+* mobile: Android
 * seek/reposition
 * subtitles
 
