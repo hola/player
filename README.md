@@ -1,5 +1,5 @@
 # [Hola Media Player API](https://hola.org/player)
-An embeddable HTML/JS widget for sites to instantly streams torrents and magnets to the browser.
+An embeddable HTML/JS widget for sites to instantly stream torrents and magnets to the browser.
 
 [Live demo](http://jsbin.com/faceyu/8/)
 ```html
