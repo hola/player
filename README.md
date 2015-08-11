@@ -1,5 +1,5 @@
 # [Hola Media Player API](https://hola.org/player)
-An HTML5/Flash Media Player that instantly streams http, torrents and magnets to the browser.
+An embeddable HTML/JS widget for sites to instantly streams torrents and magnets to the browser.
 
 [Live demo](http://jsbin.com/faceyu/8/)
 ```html
@@ -12,7 +12,6 @@ An HTML5/Flash Media Player that instantly streams http, torrents and magnets to
 ## Features
 * instant streaming
 * protocols: http, torrent files and magnet links
-* no software installation for http links
 * embeddable as div, iframe, script or simple link to video
 * video formats: m3u8, mp4, mkv, avi, asf, asx, avi, divx, flv, m2v, m4p, m4v, mkv, mov,
   mpe, mpeg, mpg, mpg4, ogg, ogv, vob, webm, wmv, wvx, 3g2, 3gp, 3gpp, 3gpp2
