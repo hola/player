@@ -58,7 +58,7 @@ An embeddable HTML/JS widget for sites to instantly stream torrents and magnets 
 Fit player to available space
 * [Live demo](http://jsbin.com/vitira/1/)
 
-### Multiple video quality options (HD mode)
+### Multiple video quality options
 * [Live demo](http://hola.org/play#sources=%5B%7B%22file%22%3A%22http%3A%2F%2Fmirrorblender.top-ix.org%2Fmovies%2Fsintel-2048-surround.mp4%22%2C%22label%22%3A%222048x872%22%7D%2C%7B%22file%22%3A%22http%3A%2F%2Fmirrorblender.top-ix.org%2Fmovies%2Fsintel-1024-surround.mp4%22%2C%22label%22%3A%221024x436%22%2C%22default%22%3Atrue%7D%5D)
 
 ### Subtitles
