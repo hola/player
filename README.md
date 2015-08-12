@@ -200,18 +200,3 @@ Set `OPEN_VIDEO_ID=id` to your video and hola will automatically download the su
 ### config_url=JSON_URL
 * explicit set configuration url: `config_url=http://yoursite.com/path/to/your_player_config.json`
 * put `hola_player.json` at the root of your site: `http://yoursite.com/hola_player.json`
-
-## Events
-* hola_vjs.play
-* hola_vjs.pause
-* hola_vjs.ended
-* hola_vjs.loadedalldata
-* hola_vjs.playing
-* hola_vjs.timeupdate
-* hola_vjs.durationchange
-* hola_vjs.progress
-* hola_vjs.fullscreenchange
-* hola_vjs.error
-* hola_vjs.volumechange
-* hola_vjs.waiting
-* hola_vjs.qualitychange
