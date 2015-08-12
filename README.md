@@ -154,10 +154,6 @@ Set `OPEN_VIDEO_ID=id` to your video and hola will automatically download the su
 
 * `title="Video Title"` - set the video title. if not specified,  auto-detect video title (from file name, torrent info)
 
-### player_type=html5/flash
-* `player_type=html5` - use html5 player (default)
-* `player_type=flash` - user flash player
-
 ### responsive=0/1
 * `responsive=0` - default, player size is static
 * `responsive=1` - player size depends on iframe size
