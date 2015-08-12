@@ -163,13 +163,6 @@ Set `OPEN_VIDEO_ID=id` to your video and hola will automatically download the su
 * `player_type=html5` - use html5 player (default)
 * `player_type=flash` - user flash player
 
-### cdn=0/1 (http only)
-Offload http downloads from your CDN to Hola's P2P network, and improve performance by receiving content from many peers.
-This can reduce bandwidth up to 80%, and eliminate buffering.
-Users will get an option to add to their browser the Hola engine that connects to the Hola P2P network.
-* `cdn=0` - player will retrieve video from http source (default).
-* `cdn=1` - player will attempt to retrieve video from Hola P2P CDN, resulting in bandiwdth savings and no buffering.
-
 ### responsive=0/1
 * `responsive=0` - default, player size is static
 * `responsive=1` - player size depends on iframe size
