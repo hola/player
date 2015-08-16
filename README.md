@@ -154,7 +154,7 @@ Set `OPEN_VIDEO_ID=id` to your video and hola will automatically download the su
 
 * `title="Video Title"` - set the video title. if not specified,  auto-detect video title (from file name, torrent info)
 
-### responsive=0/1
+### responsive=0|1
 * `responsive=0` - default, player size is static
 * `responsive=1` - player size depends on iframe size
 
@@ -163,7 +163,7 @@ Set `OPEN_VIDEO_ID=id` to your video and hola will automatically download the su
 * `poster=http://../poster.png` - url for the video poster image  
 [Live demo](http://jsbin.com/wozipo/2/)
  
-### autoplay=0/1 (coming soon)
+### autoplay=0|1 (coming soon)
 
 * `autoplay=0` - default, don't auto start playing the video
 * `autoplay=1` - auto start playing the video
