@@ -105,9 +105,9 @@ Example:
 * [Json example](http://hola.org/player/api/vid10001)
 * [Live demo](http://jsbin.com/faceyu/26)
 
-### [Automatic Subtitles and posters fetching from XMLRPC and JSON servers](https://github.com/hola/player/blob/master/plugins.md)
+## [Plugins](https://github.com/hola/player/blob/master/plugins.md): Automatic Subtitles fetching via XMLRPC/JSON, posters, and video search box
 
-Hola Plugins enable Hola to automatically fetch subtitles from a subtitles server, and posters from a video search server,
+Plugins are JSON files that enable Hola to automatically fetch subtitles from a subtitles server, and posters from a video search server,
 using XMLRPC or JSON requests.
 Plugins also allow adding a video search boxes to refer searches to your site, google, or any other search engine.
 
