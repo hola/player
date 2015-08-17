@@ -181,8 +181,8 @@ Set `OPEN_VIDEO_ID=id` to your video and hola will automatically download the su
 * `duration=3600` - set the video duration to be used before the video information is retrieved
 
 ### video_tag=0|1
-* `video_tag=0` - default, open hola browser with VLC engine to play videos
-* `video_tag=1` - try playing MP4 videos in same browser using `<video>` tag
+* `video_tag=0` - open hola browser with VLC engine to play videos
+* `video_tag=1` - default, in supporting browsers try playing MP4 videos in same browser using browser's `<video>` tag
 
 ### sub=SUBTITLES_SOURCE
 
