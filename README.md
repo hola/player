@@ -105,31 +105,14 @@ Example:
 * [Json example](http://hola.org/player/api/vid10001)
 * [Live demo](http://jsbin.com/faceyu/26)
 
-### Subtitles plugins
-It is possible to specifiy subtitles plugin for automatic subtitle download:
-* json plugin
-* xmlrpc plugin
+### [Automatic Subtitles and posters fetching from XMLRPC and JSON servers](https://github.com/hola/player/blob/master/plugins.md)
 
-Add hola_player.json to the root of your site domain to set plugins.
-It is also possible to explicity set a config json to your video using `config_url=http://`
+Hola Plugins enable Hola to automatically fetch subtitles from a subtitles server, and posters from a video search server,
+using XMLRPC or JSON requests.
+Plugins also allow adding a video search boxes to refer searches to your site, google, or any other search engine.
 
-[hola_player.json example](http://hola.org/player/api/hola_player.json)
-
-### Subtitles json plugin
-Set `OPEN_VIDEO_ID=id` to your video and hola will automatically download the subtitles.
-```json
-{
-	"plugin": [
-		{
-			"type": "json",
-			"subtitle_url": "http://hola.org/player/api/{OPEN_VIDEO_ID}"
-		}
-	]
-}		
-```
-* [Live demo](http://jsbin.com/faceyu/28)
-
-### Subtitles xmlrpc plugin
+* [How to write a plugin](https://github.com/hola/player/blob/master/plugins.md)
+* How to load a plugin: set `config_url=http://yoursite.com/hola_config.json` in the video params, and place that plugin file on your server in that location.
 
 ## API parameters
 
