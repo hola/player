@@ -47,7 +47,7 @@ An embeddable HTML/JS widget for sites to instantly stream torrents and magnets 
 ```
 [Live demo](http://jsbin.com/faceyu/6/)
 
-### make all torrent and magnet links pop up a media player upon hover
+### Make all torrent and magnet links pop up a media player upon hover
 ```html
 <script src="//hola.org/play_page.js"></script>
 <script>window.hola_player.init({links: 'hover'});</script>
