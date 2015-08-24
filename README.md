@@ -193,3 +193,5 @@ How to report an issue/bug with Hola Media Player:
 * [Open an issue](//github.com/hola/player/issues) and include in it the link to JSBin that reproduces the problem, with an explanation of how to reproduce it, along with the exact browser version.
 
 This will give us a systematic reproduction and will allow us to debug and solve the bug faster.
+
+Feel free to also open issues with suggestions for improvement, or feature requests!
