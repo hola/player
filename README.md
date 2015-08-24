@@ -195,3 +195,13 @@ How to report an issue/bug with Hola Media Player:
 This will give us a systematic reproduction and will allow us to debug and solve the bug faster.
 
 Feel free to also open issues with suggestions for improvement, or feature requests!
+
+### Known open issues
+
+* responsive=1 does not display well.
+  Target fix date: 10-Sep-2015
+* In Firefox and Hola Browser, in full screen, some videos have blue artifacts at the top part of the screen.
+  Target fix date: 18-Sep-2015
+* No way to disable subtitles embedded into MKV files.
+  Target fix date: 15-Sep-2015
+  
