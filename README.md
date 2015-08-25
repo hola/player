@@ -110,7 +110,9 @@ JSON example:
 * `v=magnet:...` - magnet link that holds mp4/mkv/avi video
 
 ### sources=MULTIPLE_SOURCES
-* `sources=MULTIPLE_SOURCS` - where MULTIPLE SOURCES is `encodeURIComponent(JSON.stringify(array))` and `array = [{file: 'http://.../clip.mp4', label: '720'}, {file: 'http://.../clip4_2.mp4, label: '480'}]`
+* `sources="[{\"file\":\"http://.../clip.mp4\",\"label\":\"720\"},{\"file\":\"http://.../clip4_2.mp4\",\"label\":\"480\"}]"` - a JSON array of the multiple video URLs.
+
+`sources` should not be used together with `v`.
 
 ### title=VIDEO_TITLE
 
