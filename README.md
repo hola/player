@@ -20,7 +20,7 @@ An embeddable HTML/JS widget for sites to instantly stream torrents and magnets 
 * seek/reposition
 * subtitles
 
-** Please note that the use of the Hola Player is subject to its terms of use, available on http://hola.org/legal_publishers
+Use of the Hola Player is subject to its [Hola Player terms of use](http://hola.org/legal_publishers)
 
 ### &lt;a&gt; link
 ```html
