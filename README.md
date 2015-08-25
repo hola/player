@@ -62,15 +62,6 @@ Fit player to available space
 * [Live demo](http://hola.org/play#sources=%5B%7B%22file%22%3A%22http%3A%2F%2Fmirrorblender.top-ix.org%2Fmovies%2Fsintel-2048-surround.mp4%22%2C%22label%22%3A%222048x872%22%7D%2C%7B%22file%22%3A%22http%3A%2F%2Fmirrorblender.top-ix.org%2Fmovies%2Fsintel-1024-surround.mp4%22%2C%22label%22%3A%221024x436%22%2C%22default%22%3Atrue%7D%5D)
 
 ### Subtitles
-Supported formats:
-- srt
-- vtt
-- srt/vtt inside a zip file
-
-Language detection:
-- Auto detection from subtitles file name. If the file name contains any 2/3 letter language abbreviation (eg. en.srt, eng.srt, fr.srt,...) we will use it as the subtitles language.
-- Force explicit subtitles lanaguge: sub1=en,xxx.srt (you can use any 2/3 letter lanaguage abbreviation)
-
 ```html
 <iframe src="//hola.org/play_embed#v=xxx.torrent&sub1=eng.srt&sub2=fr.srt"></iframe>
 ```
@@ -81,9 +72,7 @@ Language detection:
 ```
 [Live demo](http://jsbin.com/faceyu/20/)
 
-#### Subtitles from json
-It is possible to specify a json with multiple subtitles options in different languages.
-Example:
+Subtitles from JSON:
 ```json
 {
 	"subs": {
@@ -102,7 +91,7 @@ Example:
 	}
 }
 ```
-* [Json example](http://hola.org/player/api/vid10001)
+* [JSON example](http://hola.org/player/api/vid10001)
 * [Live demo](http://jsbin.com/faceyu/26)
 
 ## API parameters
@@ -160,13 +149,15 @@ Example:
 
 ### sub=SUBTITLES_SOURCE
 
-* srt subtitles from http source: `sub=http://../clip_subtitles.srt`
-* srt inside zip: `sub=http://../clip_subtitles.zip`
-* multiple subtitles: `sub1=http://... sub2=http://... sub3=http://...`
-* explicit subtitles langauge : `sub=en,http://...`
+* srt subtitles from http source: `sub=en,http://../clip_subtitles.srt`
+* srt inside zip: `sub=en,http://../clip_subtitles.zip`
+* multiple subtitles: `sub1=en,http://...&sub2=fr,http://...&sub3=es,http://...`
 * subtitles json: `sub=json,http://...`
 
-### sub_default=VALUE
+Supported formats: `srt`, `vtt`, and `zip` packaging
+Language codes: [ISO code table](http://www.w3schools.com/tags/ref_language_codes.asp). Only 2 letter codes supported: `es` supported, but `es-mx` is not.
+
+### sub_default=on|off|LANGUAGE_CODE
 * automatic selection of subtitles (use previous user selection, default to browser locale): `sub_default=on`
 * explicit subtitle language: `sub_default=en`
 * subtitles off: `sub_default=off`
