@@ -18,7 +18,7 @@ An embeddable HTML/JS widget for sites to instantly stream torrents and magnets 
 * browsers: Chrome, Firefox, IE, Safari
 * operating systems: Windows XP and above, Android
 * seek/reposition
-* subtitles
+* subtitles: srt, vtt, and zip packaging
 
 Use of the Hola Player is subject to [Hola Player terms of use](http://hola.org/legal_publishers)
 
@@ -153,8 +153,10 @@ JSON example:
 * multiple subtitles: `sub1=en,http://../clip_en.srt&sub2=fr,http://.../clip_fr.srt&sub3=es,http://.../clip_es.srt`
 * subtitles json: `sub=json,http://../clip_subtitles.json`
 
-Supported formats: `srt`, `vtt`, and `zip` packaging
+Supported formats: `srt`, `vtt`, and `zip` packaging.
+
 Language codes: [ISO code table](http://www.w3schools.com/tags/ref_language_codes.asp). Only 2 letter codes supported: `es` supported, but `es-mx` is not.
+
 JSON format: see subtitles JSON example above.
 
 ### sub_default=on|off|LANGUAGE_CODE
