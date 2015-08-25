@@ -72,7 +72,7 @@ Fit player to available space
 ```
 [Live demo](http://jsbin.com/faceyu/20/)
 
-Subtitles from JSON:
+JSON example:
 ```json
 {
 	"subs": {
@@ -91,8 +91,7 @@ Subtitles from JSON:
 	}
 }
 ```
-* [JSON example](http://hola.org/player/api/vid10001)
-* [Live demo](http://jsbin.com/faceyu/26)
+* [Live demo](http://jsbin.com/faceyu/26) ([JSON](http://hola.org/player/api/vid10001))
 
 ## API parameters
 
@@ -147,15 +146,16 @@ Subtitles from JSON:
 * `video_tag=0` - open hola browser with VLC engine to play videos
 * `video_tag=1` - default, in supporting browsers try playing MP4 videos in same browser using browser's `<video>` tag
 
-### sub=SUBTITLES_SOURCE
+### sub=LANGUAGE_CODE,URL
 
 * srt subtitles from http source: `sub=en,http://../clip_subtitles.srt`
 * srt inside zip: `sub=en,http://../clip_subtitles.zip`
-* multiple subtitles: `sub1=en,http://...&sub2=fr,http://...&sub3=es,http://...`
-* subtitles json: `sub=json,http://...`
+* multiple subtitles: `sub1=en,http://../clip_en.srt&sub2=fr,http://.../clip_fr.srt&sub3=es,http://.../clip_es.srt`
+* subtitles json: `sub=json,http://../clip_subtitles.json`
 
 Supported formats: `srt`, `vtt`, and `zip` packaging
 Language codes: [ISO code table](http://www.w3schools.com/tags/ref_language_codes.asp). Only 2 letter codes supported: `es` supported, but `es-mx` is not.
+JSON format: see subtitles JSON example above.
 
 ### sub_default=on|off|LANGUAGE_CODE
 * automatic selection of subtitles (use previous user selection, default to browser locale): `sub_default=on`
