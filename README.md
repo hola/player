@@ -193,6 +193,6 @@ Feel free to also open issues with suggestions for improvement, or feature reque
 * Subtitles size. Target fix date: 12-Sep-2015.
 * The player don't load the subtitles with appropriated encoding. Target fix date: 17-Sep-2015.
 * Subtitles duplicate themselves on screen. Target fix date: 14-Sep-2015.
-* Ability to select witch file in the torrent to use. Target fix date: 15-Sep-2015.
+* Ability to select which file in the torrent to use. Target fix date: 15-Sep-2015.
 
   
