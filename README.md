@@ -189,5 +189,6 @@ Feel free to also open issues with suggestions for improvement, or feature reque
 * No way to disable subtitles embedded into MKV files.
   Target fix date: 15-Sep-2015
 * ~~WIN10 - MP4 opens in Hola Browser. Solved: 26-Aug-2015~~
+* GET chrome-extension://gkojfkhlekighikafcpjkiklfbnlmeio/icon.png?rc=1440582098214 net::ERR_FAILED. Target fix date: 10-sep-2015.
 
   
