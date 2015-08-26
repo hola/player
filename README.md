@@ -186,4 +186,6 @@ Feel free to also open issues with suggestions for improvement, or feature reque
   Target fix date: 18-Sep-2015
 * No way to disable subtitles embedded into MKV files.
   Target fix date: 15-Sep-2015
+* WIN10 - The MP4 open on default browser Hola. Target fix date: 27-Aug-2015
+
   
