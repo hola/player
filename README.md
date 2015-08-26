@@ -11,14 +11,16 @@ An embeddable HTML/JS widget for sites to instantly stream torrents and magnets 
 
 ## Features
 * instant streaming
-* protocols: http, torrent files and magnet links
+* protocols: torrent urls and magnet links
 * embeddable as div, iframe, script or simple link to video
 * video formats: mp4, mkv, avi, wmv, divx, xvid, asf, asx, flv, m2v, m4p, m4v, mov,
   mpe, mpeg, mpg, mpg4, ogg, ogv, vob, webm, wvx
-* browsers: Chrome, Firefox, IE, Safari
+* browsers: Chrome, Firefox, IE, Safari, Opera
 * operating systems: Windows XP and above, Android
-* seek/reposition
 * subtitles: srt, vtt, and zip packaging
+* posters
+* seek/reposition
+* no Hola watermark during video playing
 
 Use of the Hola Player is subject to [Hola Player terms of use](http://hola.org/legal_publishers)
 
@@ -186,6 +188,6 @@ Feel free to also open issues with suggestions for improvement, or feature reque
   Target fix date: 18-Sep-2015
 * No way to disable subtitles embedded into MKV files.
   Target fix date: 15-Sep-2015
-* ~~WIN10 - The MP4 open on default browser Hola. solved date: 26-Aug-2015~~
+* ~~WIN10 - MP4 opens in Hola Browser. Solved: 26-Aug-2015~~
 
   
