@@ -200,7 +200,7 @@ Feel free to also open issues with suggestions for improvement, or feature reque
   Target fix date: 15-Sep-2015.
 * Subtitles for Android.<br>
   Target fix date: 1-Nov-2015.
-* Implement sub_transparent=1 support when using <video> tag.<br>
+* Implement `sub_transparent=1` support when using <video> tag.<br>
   Target fix date: 1-Nov-2015.
 * Select a audio track in a dual audio mkv. <br>
   Target fix date: 15-Oct-2015.
