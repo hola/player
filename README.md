@@ -199,6 +199,7 @@ Feel free to also open issues with suggestions for improvement, or feature reque
 * Ability to select which file in the torrent to use.<br>
   Target fix date: 15-Sep-2015.
 * Subtitles for Android.<br>
-  Targer fix date: 1-Oct-2015.
-
+  Target fix date: 1-Nov-2015.
+* Select a audio track in a dual audio mkv. <br>
+  Target fix date: 15-Oct-2015.
 
