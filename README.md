@@ -154,9 +154,12 @@ JSON example:
 
 Supported formats: `srt`, `vtt`, and `zip` packaging.
 
-Language codes: [ISO code table](http://www.w3schools.com/tags/ref_language_codes.asp). Only 2 letter codes supported: `es` supported, but `es-mx` is not.
-
 JSON format: see subtitles JSON example above.
+
+Language codes: [ISO code table](http://www.w3schools.com/tags/ref_language_codes.asp).<br>
+Currently only 2 letter codes supported: `es` supported, but `es-mx` is not. In the future we will add support also for culture specific language codes.
+
+Future feature (not yet supported): force character encoding: `sub=en,utf8,http://.../clip.srt` or `sub=es,latin-1,http://.../clip.srt`
 
 ### sub_default=on|off|LANGUAGE_CODE
 * automatic selection of subtitles (use previous user selection, default to browser locale): `sub_default=on`
