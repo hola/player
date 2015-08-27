@@ -187,7 +187,7 @@ Feel free to also open issues with suggestions for improvement, or feature reque
   Target fix date: 15-Sep-2015
 * junk messages in developer console `GET chrome-extension://.../icon.png net::ERR_FAILED`.<br>
   Target fix date: 10-Sep-2015.
-* Subtitles size too small small.<br>
+* Subtitles default size too small.<br>
   Target fix date: 12-Sep-2015.
 * The player don't load the subtitles with appropriated encoding.<br>
   Target fix date: 17-Sep-2015.
