@@ -15,7 +15,7 @@ An embeddable HTML/JS widget for sites to instantly stream torrents and magnets 
 * embeddable as div, iframe, script or simple link to video
 * video formats: mp4, mkv, avi, wmv, divx, xvid, asf, asx, flv, m2v, m4p, m4v, mov,
   mpe, mpeg, mpg, mpg4, ogg, ogv, vob, webm, wvx
-* browsers: Chrome, Firefox, IE, Safari, Opera
+* browsers: Chrome, Firefox, IE, Opera
 * operating systems: Windows XP and above, Android
 * subtitles: srt, vtt, and zip packaging
 * posters
