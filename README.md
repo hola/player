@@ -163,6 +163,11 @@ Future feature (not yet supported): force character encoding: `sub=en,utf8,http:
 * explicit subtitle language: `sub_default=en`
 * subtitles off: `sub_default=off`
 
+### sub_transparent=0|1 (coming soon)
+
+* `sub_transparent=0` - default, subtitles with black background
+* `sub_transparent=1` - subtitles with transparent background (only supported on &lt;video&gt; tag)
+
 ## Reporting bugs
 
 How to report an issue/bug with Hola Media Player:
