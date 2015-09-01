@@ -184,16 +184,16 @@ Feel free to also open issues with suggestions for improvement, or feature reque
 
 * ~~WIN10 - MP4 opens in Hola Browser.<br>
   Solved: 26-Aug-2015~~
+* ~~junk messages in developer console `GET chrome-extension://.../icon.png net::ERR_FAILED`.<br>
+  Target fix date: 10-Sep-2015.~~
+* ~~Subtitles default size too small.<br>
+  Target fix date: 12-Sep-2015.~~
 * responsive=1 does not display controls in full screen.<br>
   Target fix date: 10-Sep-2015
 * In Firefox and Hola Browser, in full screen, some videos have blue artifacts at the top part of the screen.<br>
   Target fix date: 18-Sep-2015
 * No way to disable subtitles embedded into MKV files.<br>
   Target fix date: 15-Sep-2015
-* junk messages in developer console `GET chrome-extension://.../icon.png net::ERR_FAILED`.<br>
-  Target fix date: 10-Sep-2015.
-* Subtitles default size too small.<br>
-  Target fix date: 12-Sep-2015.
 * The player don't load the subtitles with appropriated encoding.<br>
   Target fix date: 17-Sep-2015.
 * Subtitles duplicate themselves on screen.<br>
