@@ -171,12 +171,12 @@ Future feature (not yet supported): force character encoding: `sub=en,utf8,http:
 * `sub_transparent=0` - default, subtitles with black background
 * `sub_transparent=1` - subtitles with transparent background (only supported on &lt;video&gt; tag)
 
-### `file_select=NUMBER|FILE_NAME` (coming soon)
+### file_select=NUMBER|FILE_NAME (coming soon)
 
 * default - the largest file in the torrent is selected for playing.
-* `file_select=3` - select the 4th file (0 based index)
+* `file_select=3` - select the 4th file (`NUMBER` is 0 based index)
 * `file_select=Movie Clip.mp4` - select `Movie Clip.mp4` from the torrent.<br>
-  If the files in the torrent include directory names, then `file_select` should include that directory name.
+  If the files in the torrent include directory names, then `FILE_NAME` should include that directory name.
 
 ## Reporting bugs
 
