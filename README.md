@@ -158,10 +158,13 @@ Currently only 2 letter codes supported: `es` supported, but `es-mx` is not. In 
 
 Future feature (not yet supported): force character encoding: `sub=en,utf8,http://.../clip.srt` or `sub=es,latin-1,http://.../clip.srt`
 
-### sub_default=on|off|LANGUAGE_CODE
-* automatic selection of subtitles (use previous user selection, default to browser locale): `sub_default=on`
-* explicit subtitle language: `sub_default=en`
-* subtitles off: `sub_default=off`
+### sub_default=on|off|LANGUAGE_CODE|URL
+* `sub_default=on` - default, automatic selection of subtitles (use previous user selection, default to browser locale).
+* `sub_default=off` - subtitles off. User needs to enable them
+* `sub_default=en` - explicit subtitle language.<br>
+  If there are multiple subtitles in this language, the first one will be selected.
+* `sub_default=http://.../clip.srt` - select a specific subtitles by default.<br>
+  The URL needs to be the same URL previously provided to `sub=...`.
 
 ### sub_transparent=0|1 (coming soon)
 
