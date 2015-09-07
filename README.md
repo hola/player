@@ -200,7 +200,7 @@ Feel free to also open issues with suggestions for improvement, or feature reque
   Solved: 1-Sep-2015~~
 * ~~`responsive=1` does not display controls in full screen.<br>
   Solved: 2-Sep-2015~~
-* Subtitles duplicate themselves on screen [Issue #4](https://github.com/hola/player/issues/4).<br>
+* Subtitles duplicate themselves on screen.<br>
   Target fix date: 14-Sep-2015.
 * No way to disable subtitles embedded into MKV files.<br>
   Target fix date: 15-Sep-2015
