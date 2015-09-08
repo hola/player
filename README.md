@@ -169,7 +169,7 @@ Future feature (not yet supported): force character encoding: `sub=en,utf8,http:
 ### sub_transparent=0|1 (coming soon)
 
 * `sub_transparent=0` - default, subtitles with black background
-* `sub_transparent=1` - subtitles with transparent background (only supported on &lt;video&gt; tag)
+* `sub_transparent=1` - subtitles with transparent background (only supported on `&lt;video&gt;` tag)
 
 When playing video with Hola Browser, which uses VLC rendering engine, this setting is has no effect: it is always `sub_transparent=0`,
 due to technical limitations of VLC module.
@@ -215,6 +215,6 @@ Feel free to also open issues with suggestions for improvement, or feature reque
   Target fix date: 15-Oct-2015.
 * Subtitles for Android [Issue #14](https://github.com/hola/player/issues/14).<br>
   Target fix date: 1-Nov-2015.
-* Implement `sub_transparent=1` support when using &lt;video&gt; tag.<br>
+* Implement `sub_transparent=1` support when using `&lt;video&gt;` tag.<br>
   Target fix date: 1-Nov-2015.
 
