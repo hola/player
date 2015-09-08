@@ -171,6 +171,9 @@ Future feature (not yet supported): force character encoding: `sub=en,utf8,http:
 * `sub_transparent=0` - default, subtitles with black background
 * `sub_transparent=1` - subtitles with transparent background (only supported on &lt;video&gt; tag)
 
+When playing video with Hola Browser, which uses VLC rendering engine, this setting is has no effect: it is always `sub_transparent=0`,
+due to technical limitations of VLC module.
+
 ### file_select=NUMBER|FILE_NAME (coming soon)
 
 * default - the largest file in the torrent is selected for playing.
