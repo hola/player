@@ -204,11 +204,11 @@ Feel free to also open issues with suggestions for improvement, or feature reque
 * ~~`responsive=1` does not display controls in full screen.<br>
   Solved: 2-Sep-2015~~
 * No way to disable subtitles embedded into MKV files.<br>
-  Target fix date: 15-Sep-2015
+  Target fix date: 30-Sep-2015
 * The player don't load the subtitles with appropriated encoding [Issue #5](https://github.com/hola/player/issues/5).<br>
-  Target fix date: 17-Sep-2015.
+  Target fix date: 30-Sep-2015.
 * In Firefox and Hola Browser, in full screen, some videos have blue artifacts at the top part of the screen.<br>
-  Target fix date: 18-Sep-2015
+  Target fix date: 30-Sep-2015
 * `file_select=...` - Ability to select which file in the torrent to use [Issue #2](https://github.com/hola/player/issues/2).<br>
   Target fix date: 1-Oct-2015.
 * Select an audio track in a dual audio mkv [Issue #2](https://github.com/hola/player/issues/2).<br>
