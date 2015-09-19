@@ -93,7 +93,7 @@ JSON example:
 	}
 }
 ```
-* [Live demo](http://jsbin.com/faceyu/26) ([JSON](https://raw.githubusercontent.com/hola/player/master/res/subs.json))
+* [Live demo](http://jsbin.com/hohuge/3) ([JSON](https://raw.githubusercontent.com/hola/player/master/res/subs.json))
 
 ## API parameters
 
