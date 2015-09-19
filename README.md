@@ -62,16 +62,19 @@ Fit player to available space
 
 ### Subtitles
 ```html
-<iframe src="//hola.org/play_embed#v=xxx.torrent&sub1=eng.srt&sub2=fr.srt"></iframe>
+<iframe src="//hola.org/play_embed#v=xxx.torrent&sub1=http://.../eng.srt&sub2=http://.../fr.srt"></iframe>
 ```
 [Live demo](http://jsbin.com/faceyu/18/)
 
 ```html
-<div class="hola-embedded-player" sub1="eng.srt" sub2="fr.srt"></div>
+<div class="hola-embedded-player" sub1="http://.../eng.srt" sub2="http://.../fr.srt"></div>
 ```
 [Live demo](http://jsbin.com/faceyu/20/)
 
 JSON example:
+```html
+<div class="hola-embedded-player" sub="json,http://.../subs.json"></div>
+```
 ```json
 {
 	"subs": {
@@ -90,7 +93,7 @@ JSON example:
 	}
 }
 ```
-* [Live demo](http://jsbin.com/faceyu/26) ([JSON](http://hola.org/player/api/vid10001))
+* [Live demo](http://jsbin.com/faceyu/26) ([JSON](https://raw.githubusercontent.com/hola/player/master/res/subs.json))
 
 ## API parameters
 
@@ -156,7 +159,8 @@ JSON format: see subtitles JSON example above.
 Language codes: [ISO code table](http://www.w3schools.com/tags/ref_language_codes.asp).<br>
 Currently only 2 letter codes supported: `es` supported, but `es-mx` is not. In the future we will add support also for culture specific language codes.
 
-Future feature (not yet supported): force character encoding: `sub=en,utf8,http://.../clip.srt` or `sub=es,latin-1,http://.../clip.srt`
+Future feature (not yet supported): force character encoding: `sub=en,utf8,http://.../clip.srt` or `sub=es,latin-1,http://.../clip.srt`.
+JSON: `{"english": {"language": "en", "encoding": "utf8", "url": "http://.../clip.srt"}}`
 
 ### sub_default=on|off|LANGUAGE_CODE|URL
 * `sub_default=on` - default, automatic selection of subtitles (use previous user selection, default to browser locale).
