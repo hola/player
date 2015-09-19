@@ -1,0 +1,16 @@
+{
+    "subs": {
+        "vid10001": {
+            "english": [
+                {
+                    "url": "https://durian.blender.org/wp-content/content/subtitles/sintel_en.srt"
+                }
+            ],
+            "spanish": [
+                {
+                    "url": "https://durian.blender.org/wp-content/content/subtitles/sintel_es.srt"
+                }
+            ]
+        }
+    }
+}
