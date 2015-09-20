@@ -219,7 +219,7 @@ Feel free to also open issues with suggestions for improvement, or feature reque
   Target fix date: 1-Oct-2015.
 * Select an audio track in a dual audio mkv [Issue #2](https://github.com/hola/player/issues/2).<br>
   Target fix date: 15-Oct-2015.
-* Subtitles for Android [Issue #14](https://github.com/hola/player/issues/14).<br>
+* Subtitles for Android [Issue #14](https://github.com/hola/player/issues/14),[Issue #17] (https://github.com/hola/player/issues/17).<br>
   Target fix date: 1-Nov-2015.
 * Implement `sub_transparent=1` support when using `<video>` tag.<br>
   Target fix date: 1-Nov-2015.
