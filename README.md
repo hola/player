@@ -208,7 +208,7 @@ Feel free to also open issues with suggestions for improvement, or feature reque
 * ~~`responsive=1` does not display controls in full screen.<br>
   Solved: 2-Sep-2015~~
 * embedding inside https pages does not work.<br>
-  Target fix date: 21-Sep-2015
+  Target fix date: 28-Sep-2015
 * No way to disable subtitles embedded into MKV files.<br>
   Target fix date: 30-Sep-2015
 * The player don't load the subtitles with appropriated encoding [Issue #5](https://github.com/hola/player/issues/5).<br>
