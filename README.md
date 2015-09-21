@@ -207,7 +207,7 @@ Feel free to also open issues with suggestions for improvement, or feature reque
   Solved: 1-Sep-2015~~
 * ~~`responsive=1` does not display controls in full screen.<br>
   Solved: 2-Sep-2015~~
-* embedding inside https pages does not work.<br>
+* embedding inside https pages does not work [Issue #19](https://github.com/hola/player/issues/19), [Issue #19].<br>
   Target fix date: 28-Sep-2015
 * No way to disable subtitles embedded into MKV files.<br>
   Target fix date: 30-Sep-2015
@@ -219,7 +219,7 @@ Feel free to also open issues with suggestions for improvement, or feature reque
   Target fix date: 1-Oct-2015.
 * Select an audio track in a dual audio mkv [Issue #2](https://github.com/hola/player/issues/2).<br>
   Target fix date: 15-Oct-2015.
-* Subtitles for Android [Issue #14](https://github.com/hola/player/issues/14), [Issue #17] (https://github.com/hola/player/issues/17).<br>
+* Subtitles for Android [Issue #17](https://github.com/hola/player/issues/17), [Issue #17] (https://github.com/hola/player/issues/17).<br>
   Target fix date: 1-Nov-2015.
 * Implement `sub_transparent=1` support when using `<video>` tag.<br>
   Target fix date: 1-Nov-2015.
