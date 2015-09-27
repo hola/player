@@ -207,8 +207,10 @@ Feel free to also open issues with suggestions for improvement, or feature reque
   Solved: 1-Sep-2015~~
 * ~~`responsive=1` does not display controls in full screen.<br>
   Solved: 2-Sep-2015~~
-* embedding inside https pages does not work [Issue #19](https://github.com/hola/player/issues/19).<br>
+* Choosing subtitles does not display the selected language [issue #20](https://github.com/hola/player/issues/20).<br>
   Target fix date: 28-Sep-2015
+* embedding inside https pages does not work [Issue #19](https://github.com/hola/player/issues/19).<br>
+  Target fix date: 30-Sep-2015
 * No way to disable subtitles embedded into MKV files.<br>
   Target fix date: 30-Sep-2015
 * The player don't load the subtitles with appropriated encoding [Issue #5](https://github.com/hola/player/issues/5).<br>
