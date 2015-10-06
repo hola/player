@@ -172,10 +172,10 @@ JSON: `{"english": {"language": "en", "encoding": "utf8", "url": "http://.../cli
 
 ### sub_transparent=0|1 
 
-* `sub_transparent=0` - subtitles with black background 
-  [Live demo](http://jsbin.com/benigayere/1)
+* `sub_transparent=0` - subtitles with black background  
+[Live demo](http://jsbin.com/benigayere/1)
 * `sub_transparent=1` - default, subtitles with transparent background (only supported on `<video>` tag) 
-  [Live demo](http://jsbin.com/gopilabore/1)
+[Live demo](http://jsbin.com/gopilabore/1)
 
 When playing video with Hola Browser, which uses VLC rendering engine, this setting is has no effect: it is always `sub_transparent=0`,
 due to technical limitations of VLC module.
