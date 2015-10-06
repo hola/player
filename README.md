@@ -170,10 +170,10 @@ JSON: `{"english": {"language": "en", "encoding": "utf8", "url": "http://.../cli
 * `sub_default=http://.../clip.srt` - select a specific subtitles by default.<br>
   The URL needs to be the same URL previously provided to `sub=...`.
 
-### sub_transparent=0|1 (coming soon)
+### sub_transparent=0|1 
 
-* `sub_transparent=0` - subtitles with black background (coming soon)
-* `sub_transparent=1` - default, subtitles with transparent background (only supported on `<video>` tag)
+* `sub_transparent=0` - subtitles with black background [Live demo](http://jsbin.com/benigayere/1)
+* `sub_transparent=1` - default, subtitles with transparent background (only supported on `<video>` tag) [Live demo](http://jsbin.com/gopilabore/1)
 
 When playing video with Hola Browser, which uses VLC rendering engine, this setting is has no effect: it is always `sub_transparent=0`,
 due to technical limitations of VLC module.
