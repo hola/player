@@ -211,8 +211,8 @@ Feel free to also open issues with suggestions for improvement, or feature reque
   Solved: 2-Sep-2015~~
 * ~~Choosing subtitles does not display the selected language [issue #20](https://github.com/hola/player/issues/20).<br>
   Solved: 27-Sep-2015~~
-* Setting Subtitles does not working [issue #25](https://github.com/hola/player/issues/25).<br>
-  Target fix date: 7-Oct-2015
+* ~~Setting Subtitles does not working [issue #25](https://github.com/hola/player/issues/25).<br>
+  Target fix date: 7-Oct-2015~~
 * embedding inside https pages does not work [Issue #19](https://github.com/hola/player/issues/19).<br>
   Target fix date: 10-Oct-2015
 * No way to disable subtitles embedded into MKV files.<br>
