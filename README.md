@@ -12,13 +12,13 @@ An embeddable HTML/JS widget for sites to instantly stream torrents and magnets 
 ## Features
 * instant streaming
 * protocols: torrent urls and magnet links
-* embeddable as div, iframe, script or simple link to video
+* embeddable as [script and div](https://github.com/hola/player/blob/master/README.md#script-and-div), [iframe](https://github.com/hola/player/blob/master/README.md#iframe) or [simple link](https://github.com/hola/player/blob/master/README.md#a-link) to video
 * video formats: mp4, mkv, avi, wmv, divx, xvid, asf, asx, flv, m2v, m4p, m4v, mov,
   mpe, mpeg, mpg, mpg4, ogg, ogv, vob, webm, wvx
 * browsers: Chrome, Firefox, IE, Opera
 * operating systems: Windows XP and above, Android
-* subtitles: srt, vtt, and zip packaging
-* posters
+* [subtitles](https://github.com/hola/player/blob/master/README.md#sublanguage_codeurl): srt, vtt, and zip packaging
+* [posters](https://github.com/hola/player/blob/master/README.md#posterposter_url)
 * seek/reposition
 * no Hola watermark during video playing
 
