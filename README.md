@@ -113,7 +113,8 @@ JSON example:
 
 ### responsive=0|1
 * `responsive=0` - default, player size is static
-* `responsive=1` - player size depends on iframe size [live demo](http://output.jsbin.com/vitira/1/)
+* `responsive=1` - player size depends on iframe size<br>
+[Live demo](http://output.jsbin.com/vitira/1/)
 
 ### poster=POSTER_URL
 
