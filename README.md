@@ -56,41 +56,6 @@ Use of the Hola Player is subject to [Hola Player terms of use](http://hola.org/
 ```
 [Live demo](http://jsbin.com/faceyu/9/)
 
-### Subtitles
-```html
-<iframe src="//hola.org/play_embed#v=xxx.torrent&sub1=http://.../eng.srt&sub2=http://.../fr.srt"></iframe>
-```
-[Live demo](http://jsbin.com/faceyu/18/)
-
-```html
-<div class="hola-embedded-player" sub1="http://.../eng.srt" sub2="http://.../fr.srt"></div>
-```
-[Live demo](http://jsbin.com/faceyu/20/)
-
-JSON example:
-```html
-<div class="hola-embedded-player" sub="json,http://.../subs.json"></div>
-```
-```json
-{
-	"subs": {
-		"vid10001": {
-			"english": [
-				{
-					"url": "https://durian.blender.org/wp-content/content/subtitles/sintel_en.srt"
-				}
-			],
-			"spanish": [
-				{
-					"url": "https://durian.blender.org/wp-content/content/subtitles/sintel_es.srt"
-				}
-			]
-		}
-	}
-}
-```
-* [Live demo](http://jsbin.com/hohuge/3) ([JSON](https://raw.githubusercontent.com/hola/player/master/res/subs.json))
-
 ## API parameters
 
 ### parameters formatting
