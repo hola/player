@@ -110,14 +110,13 @@ Use of the Hola Player is subject to [Hola Player terms of use](http://hola.org/
 ### sub=LANGUAGE_CODE,URL
 
 * srt subtitles from http source: `sub=en,http://../clip_subtitles.srt` <br>
-[live demo](http://output.jsbin.com/fosafa/1)
+[Live demo](http://output.jsbin.com/fosafa/1)
 * srt inside zip: `sub=en,http://../clip_subtitles.zip` <br>
-* multiple subtitles: `sub1=en,http://../clip_en.srt&sub2=fr,http://.../clip_fr.srt&sub3=es,http://.../clip_es.srt` <br> [live demo](http://output.jsbin.com/faceyu/18/)
-* subtitles json: `sub=json,http://../clip_subtitles.json`
+* multiple subtitles: `sub1=en,http://../clip_en.srt&sub2=fr,http://.../clip_fr.srt&sub3=es,http://.../clip_es.srt` <br> [Live demo](http://jsbin.com/vunela/1)
+* subtitles json: `sub=json,http://../clip_subtitles.json`<br>
+[Live demo](http://jsbin.com/hohuge/3) and [format example](https://raw.githubusercontent.com/hola/player/master/res/subs.json)
 
 Supported formats: `srt`, `vtt`, and `zip` packaging.
-
-JSON: [example](https://raw.githubusercontent.com/hola/player/master/res/subs.json) and [live demo](http://jsbin.com/hohuge/3)
 
 Language codes: [ISO code table](http://www.w3schools.com/tags/ref_language_codes.asp).<br>
 Currently only 2 letter codes supported: `es` supported, but `es-mx` is not. In the future we will add support also for culture specific language codes.
