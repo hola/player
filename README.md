@@ -154,7 +154,7 @@ JSON example:
 
 Supported formats: `srt`, `vtt`, and `zip` packaging.
 
-JSON: [example](http://jsbin.com/hohuge/3) and [format](https://raw.githubusercontent.com/hola/player/master/res/subs.json)
+JSON: [example](https://raw.githubusercontent.com/hola/player/master/res/subs.json) and [live demo](http://jsbin.com/hohuge/3)
 
 Language codes: [ISO code table](http://www.w3schools.com/tags/ref_language_codes.asp).<br>
 Currently only 2 letter codes supported: `es` supported, but `es-mx` is not. In the future we will add support also for culture specific language codes.
