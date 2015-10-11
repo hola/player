@@ -214,19 +214,19 @@ Feel free to also open issues with suggestions for improvement, or feature reque
 * ~~Setting Subtitles does not working [issue #25](https://github.com/hola/player/issues/25).<br>
   Target fix date: 7-Oct-2015~~
 * embedding inside https pages does not work [Issue #19](https://github.com/hola/player/issues/19).<br>
-  Target fix date: 10-Oct-2015
-* No way to disable subtitles embedded into MKV files.<br>
-  Target fix date: 10-Oct-2015
-* Embed not correctly identify the mobile [Issue #22](https://github.com/hola/player/issues/22).<br> 
-  Target fix date: 11-Oct-2015
-* The player don't load the subtitles with appropriated encoding [Issue #5](https://github.com/hola/player/issues/5).<br>
-  Target fix date: 12-Oct-2015
-* In Firefox and Hola Browser, in full screen, some videos have blue artifacts at the top part of the screen.<br>
-  Target fix date: 12-Oct-2015
-* `file_select=...` - Ability to select which file in the torrent to use [Issue #2](https://github.com/hola/player/issues/2).<br>
-  Target fix date: 12-Oct-2015
-* Select an audio track in a dual audio mkv [Issue #2](https://github.com/hola/player/issues/2).<br>
   Target fix date: 15-Oct-2015
+* No way to disable subtitles embedded into MKV files.<br>
+  Target fix date: 15-Oct-2015
+* Embed not correctly identify the mobile [Issue #22](https://github.com/hola/player/issues/22).<br> 
+  Target fix date: 16-Oct-2015
+* The player don't load the subtitles with appropriated encoding [Issue #5](https://github.com/hola/player/issues/5).<br>
+  Target fix date: 18-Oct-2015
+* In Firefox and Hola Browser, in full screen, some videos have blue artifacts at the top part of the screen.<br>
+  Target fix date: 18-Oct-2015
+* `file_select=...` - Ability to select which file in the torrent to use [Issue #2](https://github.com/hola/player/issues/2).<br>
+  Target fix date: 20-Oct-2015
+* Select an audio track in a dual audio mkv [Issue #2](https://github.com/hola/player/issues/2).<br>
+  Target fix date: 22-Oct-2015
 * Subtitles for Android [Issue #14](https://github.com/hola/player/issues/14), [Issue #17] (https://github.com/hola/player/issues/17).<br>
   Target fix date: 1-Nov-2015
 * Implement `sub_transparent=1` support when using `<video>` tag.<br>
