@@ -149,7 +149,7 @@ JSON example:
 
 * srt subtitles from http source: `sub=en,http://../clip_subtitles.srt`
 * srt inside zip: `sub=en,http://../clip_subtitles.zip`
-* multiple subtitles: `sub1=en,http://../clip_en.srt&sub2=fr,http://.../clip_fr.srt&sub3=es,http://.../clip_es.srt`
+* multiple subtitles: `sub1=en,http://../clip_en.srt&sub2=fr,http://.../clip_fr.srt&sub3=es,http://.../clip_es.srt` [live demo](http://output.jsbin.com/faceyu/18/)
 * subtitles json: `sub=json,http://../clip_subtitles.json`
 
 Supported formats: `srt`, `vtt`, and `zip` packaging.
