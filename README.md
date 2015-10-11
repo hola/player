@@ -227,7 +227,7 @@ Feel free to also open issues with suggestions for improvement, or feature reque
   Target fix date: 20-Oct-2015
 * Select an audio track in a dual audio mkv [Issue #2](https://github.com/hola/player/issues/2).<br>
   Target fix date: 22-Oct-2015
-* Subtitles for Android [Issue #14](https://github.com/hola/player/issues/14), [Issue #17] (https://github.com/hola/player/issues/17).<br>
+* Subtitles for Android [Issue #17] (https://github.com/hola/player/issues/17).<br>
   Target fix date: 1-Nov-2015
 * In Firefox and Hola Browser, in full screen, some videos have blue artifacts at the top part of the screen.<br>
   Target fix date: 18-Nov-2015
