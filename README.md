@@ -56,10 +56,6 @@ Use of the Hola Player is subject to [Hola Player terms of use](http://hola.org/
 ```
 [Live demo](http://jsbin.com/faceyu/9/)
 
-### Responsive player
-Fit player to available space
-* [Live demo](http://jsbin.com/vitira/1/)
-
 ### Subtitles
 ```html
 <iframe src="//hola.org/play_embed#v=xxx.torrent&sub1=http://.../eng.srt&sub2=http://.../fr.srt"></iframe>
@@ -117,7 +113,7 @@ JSON example:
 
 ### responsive=0|1
 * `responsive=0` - default, player size is static
-* `responsive=1` - player size depends on iframe size
+* `responsive=1` - player size depends on iframe size [live demo](http://output.jsbin.com/vitira/1/)
 
 ### poster=POSTER_URL
 
