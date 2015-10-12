@@ -115,6 +115,7 @@ Use of the Hola Player is subject to [Hola Player terms of use](http://hola.org/
 * `video_tag=1` - default, in supporting browsers try playing MP4 videos in same browser using browser's `<video>` tag
 
 ### sub=[LANGUAGE_CODE|json,][ENCODING,]URL
+[Live demo](http://jsbin.com/vunela/1/edit?html,output)
 
 * LANGUAGE_CODE - two- ([ISO code table](http://www.w3schools.com/tags/ref_language_codes.asp))
 or four-letter (with region according to [IETF](https://en.wikipedia.org/wiki/IETF_language_tag))
