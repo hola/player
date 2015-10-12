@@ -115,14 +115,15 @@ Use of the Hola Player is subject to [Hola Player terms of use](http://hola.org/
 * multiple subtitles: `sub1=en,http://../clip_en.srt&sub2=fr,http://.../clip_fr.srt&sub3=es,http://.../clip_es.srt` <br> [Live demo](http://jsbin.com/vunela/1)
 * subtitles json: `sub=json,http://../clip_subtitles.json`<br>
 [Live demo](http://jsbin.com/hohuge/3) and [format example](https://raw.githubusercontent.com/hola/player/master/res/subs.json)
+* force subtitles encoding: `sub=en,utf8,http://.../clip.srt` or `sub=es,latin-1,http://.../clip.srt`.
+JSON: `{"english": {"language": "en", "encoding": "utf8", "url": "http://.../clip.srt"}}`
+[Live demo](http://jsbin.com/fosafa/3]
 
 Supported formats: `srt`, `vtt`, and `zip` packaging.
 
 Language codes: [ISO code table](http://www.w3schools.com/tags/ref_language_codes.asp).<br>
 Currently only 2 letter codes supported: `es` supported, but `es-mx` is not. In the future we will add support also for culture specific language codes.
 
-Future feature (not yet supported): force character encoding: `sub=en,utf8,http://.../clip.srt` or `sub=es,latin-1,http://.../clip.srt`.
-JSON: `{"english": {"language": "en", "encoding": "utf8", "url": "http://.../clip.srt"}}`
 
 ### sub_default=on|off|LANGUAGE_CODE|URL
 * `sub_default=on` - default, automatic selection of subtitles (use previous user selection, default to browser locale).
