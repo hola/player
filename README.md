@@ -58,6 +58,13 @@ Use of the Hola Player is subject to [Hola Player terms of use](http://hola.org/
 
 ## API parameters
 
+### notational conventions
+
+* json - plain text
+* SOURCE - variable with name "SOURCE"
+* [ENCODING] - optional variable with name "ENCODING"
+* | - OR. Example: [ENCODING|new] means "write encoding name or just plain 'new' text"
+
 ### parameters formatting
 
 * url (link or iframe src):
@@ -107,7 +114,50 @@ Use of the Hola Player is subject to [Hola Player terms of use](http://hola.org/
 * `video_tag=0` - open hola browser with VLC engine to play videos
 * `video_tag=1` - default, in supporting browsers try playing MP4 videos in same browser using browser's `<video>` tag
 
-### sub=LANGUAGE_CODE,URL
+### sub=[LANGUAGE_CODE|json,][ENCODING,]URL
+
+* LANGUAGE_CODE - two- ([ISO code table](http://www.w3schools.com/tags/ref_language_codes.asp))
+or four-letter (with region according to [IETF](https://en.wikipedia.org/wiki/IETF_language_tag))
+language code. Examples: "en", "en-US", "pt-BR"
+* json - specify it instead of LANGUAGE_CODE to indicate that URL is JSON file
+with subtitles
+* ENCODING - subtitles file encoding according to
+[WHATWG encodings list](https://encoding.spec.whatwg.org/#names-and-labels).
+Examples: "utf-8", "cp1251"
+* URL - url to `srt`/`vtt`/`zip`/`json` file. If you specified `json` instead of
+LANGUAGE_CODE then specify url to json file. We support `srt` and `vtt` formats for
+subtitles. `zip` must contain `srt`/`vtt`. Format of `json` file will be
+explained below. Examples: "http://example.com/subtitle.json",
+"http://example.com/subtitle_en.srt"
+
+#### JSON file format
+
+Instead of passing multiple subtitles via HTML attributes/url parameters you
+can pass them via single JSON file as it was explained above. The format is the
+following:
+```
+[
+    {
+      "url": "http://example.com/subtitle.srt",
+      "language": "pt"
+    },
+    {
+      "url": "http://example.com/subtitle_ru.srt",
+      "encoding": "windows-1251"
+    },
+    ...
+    {
+      "url": "http://example.com/subtitle2.srt",
+      "language": "es",
+      "encoding": "utf8"
+    }
+]
+```
+
+The rules for "language", "url" and "encoding" code are the the same as for
+LANGUAGE_CODE, URL and ENCODING in url format.
+
+#### examples
 
 * srt subtitles from http source: `sub=en,http://../clip_subtitles.srt` <br>
 [Live demo](http://output.jsbin.com/fosafa/1)
@@ -118,12 +168,6 @@ Use of the Hola Player is subject to [Hola Player terms of use](http://hola.org/
 * force subtitles encoding: `sub=en,utf8,http://.../clip.srt` or `sub=es,latin-1,http://.../clip.srt`.
 JSON: `{"english": {"language": "en", "encoding": "utf8", "url": "http://.../clip.srt"}}` <br>
 [Live demo](http://jsbin.com/fosafa/3)
-
-Supported formats: `srt`, `vtt`, and `zip` packaging.
-
-Language codes: [ISO code table](http://www.w3schools.com/tags/ref_language_codes.asp).<br>
-Currently only 2 letter codes supported: `es` supported, but `es-mx` is not. In the future we will add support also for culture specific language codes.
-
 
 ### sub_default=on|off|LANGUAGE_CODE|URL
 * `sub_default=on` - default, automatic selection of subtitles (use previous user selection, default to browser locale).
