@@ -124,35 +124,6 @@ subtitles. `zip` must contain `srt`/`vtt`. Format of `json` file will be
 explained below. Examples: "http://example.com/subtitle.json",
 "http://example.com/subtitle_en.srt"
 
-#### JSON file format
-
-Instead of passing multiple subtitles via HTML attributes/url parameters you
-can pass them via single JSON file as it was explained above. The format is the
-following:
-```
-[
-    {
-      "url": "http://example.com/subtitle.srt",
-      "language": "pt"
-    },
-    {
-      "url": "http://example.com/subtitle_ru.srt",
-      "encoding": "windows-1251"
-    },
-    ...
-    {
-      "url": "http://example.com/subtitle2.srt",
-      "language": "es",
-      "encoding": "utf8"
-    }
-]
-```
-
-[File example](https://raw.githubusercontent.com/hola/player/master/res/subs.json)
-
-The rules for "language", "url" and "encoding" code are the the same as for
-LANGUAGE_CODE, URL and ENCODING in url format.
-
 #### examples
 
 * srt subtitles from http source: `sub=en,http://../clip_subtitles.srt`<br>
@@ -161,7 +132,7 @@ LANGUAGE_CODE, URL and ENCODING in url format.
 * multiple subtitles: `sub1=en,http://../clip_en.srt&sub2=fr,http://.../clip_fr.srt&sub3=es,http://.../clip_es.srt`<br>
 [Live demo](http://jsbin.com/vunela/1)
 * subtitles json: `sub=json,http://../clip_subtitles.json`<br>
-[Live demo](http://jsbin.com/hohuge/3) (with custom encoding and language)
+[Live demo](http://jsbin.com/hohuge/3) (with custom encoding and language) and [file example](https://raw.githubusercontent.com/hola/player/master/res/subs.json)
 * force subtitles encoding: `sub=en,utf8,http://.../clip.srt` or `sub=es,latin-1,http://.../clip.srt`.<br>
 [Live demo](http://jsbin.com/fosafa/3)
 
