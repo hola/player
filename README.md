@@ -154,19 +154,21 @@ following:
 ]
 ```
 
+[File example](https://raw.githubusercontent.com/hola/player/master/res/subs.json)
+
 The rules for "language", "url" and "encoding" code are the the same as for
 LANGUAGE_CODE, URL and ENCODING in url format.
 
 #### examples
 
-* srt subtitles from http source: `sub=en,http://../clip_subtitles.srt` <br>
+* srt subtitles from http source: `sub=en,http://../clip_subtitles.srt`<br>
 [Live demo](http://output.jsbin.com/fosafa/1)
-* srt inside zip: `sub=en,http://../clip_subtitles.zip` <br>
-* multiple subtitles: `sub1=en,http://../clip_en.srt&sub2=fr,http://.../clip_fr.srt&sub3=es,http://.../clip_es.srt` <br> [Live demo](http://jsbin.com/vunela/1)
+* srt inside zip: `sub=en,http://../clip_subtitles.zip`
+* multiple subtitles: `sub1=en,http://../clip_en.srt&sub2=fr,http://.../clip_fr.srt&sub3=es,http://.../clip_es.srt`<br>
+[Live demo](http://jsbin.com/vunela/1)
 * subtitles json: `sub=json,http://../clip_subtitles.json`<br>
-[Live demo](http://jsbin.com/hohuge/3) and [format example](https://raw.githubusercontent.com/hola/player/master/res/subs.json)
+[Live demo](http://jsbin.com/hohuge/3) (with custom encoding and language)
 * force subtitles encoding: `sub=en,utf8,http://.../clip.srt` or `sub=es,latin-1,http://.../clip.srt`.
-JSON: `{"english": {"language": "en", "encoding": "utf8", "url": "http://.../clip.srt"}}` <br>
 [Live demo](http://jsbin.com/fosafa/3)
 
 ### sub_default=on|off|LANGUAGE_CODE|URL
