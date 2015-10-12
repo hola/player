@@ -116,8 +116,8 @@ Use of the Hola Player is subject to [Hola Player terms of use](http://hola.org/
 * subtitles json: `sub=json,http://../clip_subtitles.json`<br>
 [Live demo](http://jsbin.com/hohuge/3) and [format example](https://raw.githubusercontent.com/hola/player/master/res/subs.json)
 * force subtitles encoding: `sub=en,utf8,http://.../clip.srt` or `sub=es,latin-1,http://.../clip.srt`.
-JSON: `{"english": {"language": "en", "encoding": "utf8", "url": "http://.../clip.srt"}}`
-[Live demo](http://jsbin.com/fosafa/3]
+JSON: `{"english": {"language": "en", "encoding": "utf8", "url": "http://.../clip.srt"}}` <br>
+[Live demo](http://jsbin.com/fosafa/3)
 
 Supported formats: `srt`, `vtt`, and `zip` packaging.
 
