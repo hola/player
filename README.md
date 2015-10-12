@@ -178,10 +178,10 @@ LANGUAGE_CODE, URL and ENCODING in url format.
 * `sub_default=off` - subtitles off. User needs to enable them <br>
 [Live demo](http://jsbin.com/fosafa/4)
 * `sub_default=en` - explicit subtitle language.<br>
-  If there are multiple subtitles in this language, the first one will be selected.
+  If there are multiple subtitles in this language, the first one will be selected.<br>
 [Live demo](http://jsbin.com/vunela/4)
 * `sub_default=http://.../clip.srt` - select a specific subtitles by default.<br>
-  The URL needs to be the same URL previously provided to `sub=...`.
+  The URL needs to be the same URL previously provided to `sub=...`.<br>
 [Live demo](http://jsbin.com/vunela/6)
 
 ### sub_transparent=0|1 
