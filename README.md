@@ -110,22 +110,6 @@ Use of the Hola Player is subject to [Hola Player terms of use](http://hola.org/
 ### sub=LANGUAGE_CODE,ENCODING,URL
 [Live demo](http://jsbin.com/vunela/1/edit?html,output)
 
-* LANGUAGE_CODE - two- ([ISO code table](http://www.w3schools.com/tags/ref_language_codes.asp))
-or four-letter (with region according to [IETF](https://en.wikipedia.org/wiki/IETF_language_tag))
-language code. Examples: "en", "en-US", "pt-BR"
-* json - specify it instead of LANGUAGE_CODE to indicate that URL is JSON file
-with subtitles
-* ENCODING - subtitles file encoding according to
-[WHATWG encodings list](https://encoding.spec.whatwg.org/#names-and-labels).
-Examples: "utf-8", "cp1251"
-* URL - url to `srt`/`vtt`/`zip`/`json` file. If you specified `json` instead of
-LANGUAGE_CODE then specify url to json file. We support `srt` and `vtt` formats for
-subtitles. `zip` must contain `srt`/`vtt`. Format of `json` file will be
-explained below. Examples: "http://example.com/subtitle.json",
-"http://example.com/subtitle_en.srt"
-
-#### examples
-
 * srt subtitles from http source: `sub=en,http://../clip_subtitles.srt`<br>
 [Live demo](http://output.jsbin.com/fosafa/1)
 * srt inside zip: `sub=en,http://../clip_subtitles.zip`
@@ -135,6 +119,16 @@ explained below. Examples: "http://example.com/subtitle.json",
 [Live demo](http://jsbin.com/hohuge/3) (with custom encoding and language) and [file example](https://raw.githubusercontent.com/hola/player/master/res/subs.json)
 * force subtitles encoding: `sub=en,utf8,http://.../clip.srt` or `sub=es,latin-1,http://.../clip.srt`.<br>
 [Live demo](http://jsbin.com/fosafa/3)
+
+Language codes: two- ([ISO code table](http://www.w3schools.com/tags/ref_language_codes.asp))
+or four-letter (with region according to [IETF](https://en.wikipedia.org/wiki/IETF_language_tag))
+language code. Examples: "en", "en-US", "pt-BR"
+
+Encoding: subtitles file encoding according to
+[WHATWG encodings list](https://encoding.spec.whatwg.org/#names-and-labels).
+Examples: "utf-8", "cp1251"
+
+Supported formats: `srt`, `vtt`, and `zip` packaging.
 
 ### sub_default=on|off|LANGUAGE_CODE|URL
 * `sub_default=on` - default, automatic selection of subtitles (use previous user selection, default to browser locale).
