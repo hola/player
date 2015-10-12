@@ -17,7 +17,7 @@ An embeddable HTML/JS widget for sites to instantly stream torrents and magnets 
   mpe, mpeg, mpg, mpg4, ogg, ogv, vob, webm, wvx
 * browsers: Chrome, Firefox, IE, Opera
 * operating systems: Windows XP and above, Android
-* [subtitles](https://github.com/hola/player/blob/master/README.md#sublanguage_codejsonencodingurl): srt, vtt, and zip packaging
+* [subtitles](https://github.com/hola/player/blob/master/README.md#sublanguage_codeencodingurl): srt, vtt, and zip packaging
 * [posters](https://github.com/hola/player/blob/master/README.md#posterposter_url)
 * seek/reposition
 * no Hola watermark during video playing
