@@ -174,7 +174,7 @@ LANGUAGE_CODE, URL and ENCODING in url format.
 
 ### sub_default=on|off|LANGUAGE_CODE|URL
 * `sub_default=on` - default, automatic selection of subtitles (use previous user selection, default to browser locale).
-[Live demo](http://output.jsbin.com/fosafa/1)
+[Live demo](http://jsbin.com/nehehezebu/1)
 * `sub_default=off` - subtitles off. User needs to enable them <br>
 [Live demo](http://jsbin.com/fosafa/4)
 * `sub_default=en` - explicit subtitle language.<br>
