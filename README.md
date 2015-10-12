@@ -178,9 +178,9 @@ Feel free to also open issues with suggestions for improvement, or feature reque
   Solved: 7-Oct-2015~~
 * ~~Implement `sub_transparent=1` support when using `<video>` tag.<br>
   Solved: 7-Oct-2015~~
+* ~~The player don't load the subtitles with appropriated encoding [Issue #5](https://github.com/hola/player/issues/5).<br>
+  Solved: 12-Oct-2015~~
 * No way to disable subtitles embedded into MKV files.<br>
-  Target fix date: 15-Oct-2015
-* The player don't load the subtitles with appropriated encoding [Issue #5](https://github.com/hola/player/issues/5).<br>
   Target fix date: 15-Oct-2015
 * embedding inside https pages does not work [Issue #19](https://github.com/hola/player/issues/19).<br>
   Target fix date: 16-Oct-2015
