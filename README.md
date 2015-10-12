@@ -169,7 +169,7 @@ LANGUAGE_CODE, URL and ENCODING in url format.
 [Live demo](http://jsbin.com/vunela/1)
 * subtitles json: `sub=json,http://../clip_subtitles.json`<br>
 [Live demo](http://jsbin.com/hohuge/3) (with custom encoding and language)
-* force subtitles encoding: `sub=en,utf8,http://.../clip.srt` or `sub=es,latin-1,http://.../clip.srt`.
+* force subtitles encoding: `sub=en,utf8,http://.../clip.srt` or `sub=es,latin-1,http://.../clip.srt`.<br>
 [Live demo](http://jsbin.com/fosafa/3)
 
 ### sub_default=on|off|LANGUAGE_CODE|URL
