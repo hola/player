@@ -58,13 +58,6 @@ Use of the Hola Player is subject to [Hola Player terms of use](http://hola.org/
 
 ## API parameters
 
-### notational conventions
-
-* json - plain text
-* SOURCE - variable with name "SOURCE"
-* [ENCODING] - optional variable with name "ENCODING"
-* | - OR. Example: [ENCODING|new] means "write encoding name or just plain 'new' text"
-
 ### parameters formatting
 
 * url (link or iframe src):
