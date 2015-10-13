@@ -89,10 +89,9 @@ Use of the Hola Player is subject to [Hola Player terms of use](http://hola.org/
 ### start=START_SEC (coming soon)
 
 * `start=100` - start playing video 100sec after video start
-
-### start_at=START_PERCENT
-
-* `start_at=10` - start playing video 10% after video start
+* `start=1:40` - 100sec using minute:seconds format
+* `start=0:01:40` - 100sec using hour:minute:seconds format
+* `start=00:01:40` - 100sec using hour:minute:seconds format with leading zero
 
 ### duration=DURATION_SEC (coming soon)
 
