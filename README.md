@@ -107,7 +107,8 @@ Use of the Hola Player is subject to [Hola Player terms of use](http://hola.org/
 
 * srt subtitles from http source: `sub=en,http://../clip_subtitles.srt`<br>
 [Live demo](http://output.jsbin.com/fosafa/1)
-* srt inside zip: `sub=en,http://../clip_subtitles.zip`
+* srt inside zip: `sub=en,http://../clip_subtitles.zip`<br>
+[Live demo](http://jsbin.com/verohavexu/1)
 * multiple subtitles: `sub1=en,http://../clip_en.srt&sub2=fr,http://.../clip_fr.srt&sub3=es,http://.../clip_es.srt`<br>
 [Live demo](http://jsbin.com/vunela/1)
 * subtitles json: `sub=json,http://../clip_subtitles.json`<br>
