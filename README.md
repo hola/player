@@ -174,8 +174,6 @@ Feel free to also open issues with suggestions for improvement, or feature reque
   Solved: 1-Sep-2015~~
 * ~~Subtitles default size too small.<br>
   Solved: 1-Sep-2015~~
-* ~~`responsive=1` does not display controls in full screen.<br>
-  Solved: 2-Sep-2015~~
 * ~~Choosing subtitles does not display the selected language [issue #20](https://github.com/hola/player/issues/20).<br>
   Solved: 27-Sep-2015~~
 * ~~Setting Subtitles does not working [issue #25](https://github.com/hola/player/issues/25).<br>
