@@ -76,11 +76,6 @@ Use of the Hola Player is subject to [Hola Player terms of use](http://hola.org/
 
 * `title="Video Title"` - set the video title. if not specified,  auto-detect video title (from file name, torrent info)
 
-### responsive=0|1
-* `responsive=0` - default, player size is static
-* `responsive=1` - player size depends on iframe size<br>
-[Live demo](http://output.jsbin.com/vitira/1/)
-
 ### poster=POSTER_URL
 
 * `poster=http://../poster.png` - url for the video poster image  
