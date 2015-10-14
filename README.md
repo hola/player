@@ -89,9 +89,8 @@ Use of the Hola Player is subject to [Hola Player terms of use](http://hola.org/
 ### start=START_SEC (coming soon)
 
 * `start=100` - start playing video 100 sec after video start
-* `start=1:40` - 100 sec using minute: seconds format
-* `start=0:01:40` - 100 sec using hour: minute:seconds format
-* `start=00:01:40` - 100 sec using hour: minute:seconds format with leading zero
+* `start=00:01:40` - start at 1 minute and 40 seconds (which is 100 seconds). Also 
+possible 1:40 or 01:40
 
 ### duration=DURATION_SEC (coming soon)
 
@@ -117,7 +116,7 @@ Use of the Hola Player is subject to [Hola Player terms of use](http://hola.org/
 
 Language codes: two- ([ISO code table](http://www.w3schools.com/tags/ref_language_codes.asp))
 or four-letter (with region according to [IETF](https://en.wikipedia.org/wiki/IETF_language_tag))
-language code. Examples: "en", "en-US", "pt-BR"
+language code. Examples: 'en', 'en-US', 'pt-BR'
 
 Encoding: subtitles file encoding according to
 [WHATWG encodings list](https://encoding.spec.whatwg.org/#names-and-labels).
