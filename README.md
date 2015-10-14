@@ -1,7 +1,7 @@
 # [Hola Media Player API](https://hola.org/player)
 An embeddable HTML/JS widget for sites to instantly stream torrents and magnets to the browser.
 
-[Live demo](http://jsbin.com/faceyu/8/)
+[Live demo](http://jsbin.com/faceyu/8/edit?html,output)
 ```html
 <script src="//hola.org/play_page.js"></script>
 <div class="hola-embedded-player"
@@ -39,7 +39,7 @@ Use of the Hola Player is subject to [Hola Player terms of use](http://hola.org/
   v="http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_1080p_30fps_normal.mp4.torrent">
 </div> 
 ```
-[Live demo](http://jsbin.com/faceyu/8/)
+[Live demo](http://jsbin.com/faceyu/8/edit?html,output)
 
 ### &lt;iframe&gt;
 ```html
@@ -47,14 +47,14 @@ Use of the Hola Player is subject to [Hola Player terms of use](http://hola.org/
   src="//hola.org/play_embed#v=http%3A%2F%2Fdistribution.bbb3d.renderfarming.net%2Fvideo%2Fmp4%2Fbbb_sunflower_1080p_30fps_normal.mp4.torrent">
 </iframe>
 ```
-[Live demo](http://jsbin.com/faceyu/6/)
+[Live demo](http://jsbin.com/faceyu/6/edit?html,output)
 
 ### Make all torrent and magnet links pop up a media player upon hover
 ```html
 <script src="//hola.org/play_page.js"></script>
 <script>window.hola_player.init({links: 'hover'});</script>
 ```
-[Live demo](http://jsbin.com/faceyu/9/)
+[Live demo](http://jsbin.com/faceyu/9/edit?html,output)
 
 ## API parameters
 
@@ -79,7 +79,7 @@ Use of the Hola Player is subject to [Hola Player terms of use](http://hola.org/
 ### poster=POSTER_URL
 
 * `poster=http://../poster.png` - url for the video poster image  
-[Live demo](http://jsbin.com/wozipo/2/)
+[Live demo](http://jsbin.com/wozipo/2/edit?html,output)
  
 ### autoplay=0|1 (coming soon)
 
@@ -104,15 +104,15 @@ possible 1:40 or 01:40
 [Live demo](http://jsbin.com/vunela/1/edit?html,output)
 
 * srt subtitles from http source: `sub=en,http://../clip_subtitles.srt`<br>
-[Live demo](http://output.jsbin.com/fosafa/1)
+[Live demo](http://jsbin.com/fosafa/1/edit?html,output)
 * srt inside zip: `sub=en,http://../clip_subtitles.zip`<br>
-[Live demo](http://jsbin.com/verohavexu/1)
+[Live demo](http://jsbin.com/gicuvi/1/edit?html,output)
 * multiple subtitles: `sub1=en,http://../clip_en.srt&sub2=fr,http://.../clip_fr.srt&sub3=es,http://.../clip_es.srt`<br>
-[Live demo](http://jsbin.com/vunela/1)
+[Live demo](http://jsbin.com/vunela/1/edit?html,output)
 * subtitles json: `sub=json,http://../clip_subtitles.json`<br>
-[Live demo](http://jsbin.com/hohuge/3) (with custom encoding and language) and [file example](https://raw.githubusercontent.com/hola/player/master/res/subs.json)
+[Live demo](http://jsbin.com/hohuge/3/edit?html,output) (with custom encoding and language) and [file example](https://raw.githubusercontent.com/hola/player/master/res/subs.json)
 * force subtitles encoding: `sub=en,utf8,http://.../clip.srt` or `sub=es,latin-1,http://.../clip.srt`.<br>
-[Live demo](http://jsbin.com/fosafa/3)
+[Live demo](http://jsbin.com/fosafa/3/edit?html,output)
 
 Language codes: two- ([ISO code table](http://www.w3schools.com/tags/ref_language_codes.asp))
 or four-letter (with region according to [IETF](https://en.wikipedia.org/wiki/IETF_language_tag))
@@ -126,22 +126,22 @@ Supported formats: `srt`, `vtt`, and `zip` packaging.
 
 ### sub_default=on|off|LANGUAGE_CODE|URL
 * `sub_default=on` - default, automatic selection of subtitles (use previous user selection, default to browser locale).
-[Live demo](http://jsbin.com/hegefe/1)
+[Live demo](http://jsbin.com/hegefe/1/edit?html,output)
 * `sub_default=off` - subtitles off. User needs to enable them <br>
-[Live demo](http://jsbin.com/fosafa/4)
+[Live demo](http://jsbin.com/fosafa/4/edit?html,output)
 * `sub_default=en` - explicit subtitle language.<br>
   If there are multiple subtitles in this language, the first one will be selected.<br>
-[Live demo](http://jsbin.com/vunela/4)
+[Live demo](http://jsbin.com/vunela/4/edit?html,output)
 * `sub_default=http://.../clip.srt` - select a specific subtitles by default.<br>
   The URL needs to be the same URL previously provided to `sub=...`.<br>
-[Live demo](http://jsbin.com/vunela/6)
+[Live demo](http://jsbin.com/vunela/6/edit?html,output)
 
 ### sub_transparent=0|1 
 
 * `sub_transparent=0` - subtitles with black background. <br>
-[Live demo](http://jsbin.com/tohetu/1)
+[Live demo](http://jsbin.com/tohetu/1/edit?html,output)
 * `sub_transparent=1` - default, subtitles with transparent background (only supported on `<video>` tag).<br>
-[Live demo](http://jsbin.com/dusole/1)
+[Live demo](http://jsbin.com/dusole/1/edit?html,output)
 
 When playing video with Hola Browser, which uses VLC rendering engine, this setting is has no effect: it is always `sub_transparent=0`,
 due to technical limitations of VLC module.
