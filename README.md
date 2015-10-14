@@ -139,9 +139,9 @@ Supported formats: `srt`, `vtt`, and `zip` packaging.
 ### sub_transparent=0|1 
 
 * `sub_transparent=0` - subtitles with black background. <br>
-[Live demo](http://jsbin.com/benigayere/1)
+[Live demo](http://jsbin.com/tohetu/1)
 * `sub_transparent=1` - default, subtitles with transparent background (only supported on `<video>` tag).<br>
-[Live demo](http://jsbin.com/gopilabore/1)
+[Live demo](http://jsbin.com/dusole/1)
 
 When playing video with Hola Browser, which uses VLC rendering engine, this setting is has no effect: it is always `sub_transparent=0`,
 due to technical limitations of VLC module.
