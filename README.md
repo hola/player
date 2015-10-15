@@ -101,14 +101,14 @@ possible 1:40 or 01:40
 * `video_tag=1` - default, in supporting browsers try playing MP4 videos in same browser using browser's `<video>` tag
 
 ### sub=LANGUAGE_CODE,ENCODING,URL
-[Live demo](http://jsbin.com/vunela/1/edit?html,output)
+[Live demo](http://jsbin.com/vunela/7/edit?html,output)
 
 * srt subtitles from http source: `sub=en,http://../clip_subtitles.srt`<br>
-[Live demo](http://jsbin.com/fosafa/1/edit?html,output)
+[Live demo](http://jsbin.com/fosafa/6/edit?html,output)
 * srt inside zip: `sub=en,http://../clip_subtitles.zip`<br>
-[Live demo](http://jsbin.com/gicuvi/1/edit?html,output)
+[Live demo](http://jsbin.com/gicuvi/3/edit?html,output)
 * multiple subtitles: `sub1=en,http://../clip_en.srt&sub2=fr,http://.../clip_fr.srt&sub3=es,http://.../clip_es.srt`<br>
-[Live demo](http://jsbin.com/vunela/1/edit?html,output)
+[Live demo](http://jsbin.com/vunela/11/edit?html,output)
 * subtitles json: `sub=json,http://../clip_subtitles.json`<br>
 [Live demo](http://jsbin.com/hohuge/3/edit?html,output) (with custom encoding and language) and [file example](https://raw.githubusercontent.com/hola/player/master/res/subs.json)
 * force subtitles encoding: `sub=en,utf8,http://.../clip.srt` or `sub=es,latin-1,http://.../clip.srt`.<br>
@@ -126,22 +126,22 @@ Supported formats: `srt`, `vtt`, and `zip` packaging.
 
 ### sub_default=on|off|LANGUAGE_CODE|URL
 * `sub_default=on` - default, automatic selection of subtitles (use previous user selection, default to browser locale).
-[Live demo](http://jsbin.com/hegefe/1/edit?html,output)
+[Live demo](http://jsbin.com/hegefe/2/edit?html,output)
 * `sub_default=off` - subtitles off. User needs to enable them <br>
-[Live demo](http://jsbin.com/fosafa/4/edit?html,output)
+[Live demo](http://jsbin.com/fosafa/8/edit?html,output)
 * `sub_default=en` - explicit subtitle language.<br>
   If there are multiple subtitles in this language, the first one will be selected.<br>
-[Live demo](http://jsbin.com/vunela/4/edit?html,output)
+[Live demo](http://jsbin.com/vunela/14/edit?html,output)
 * `sub_default=http://.../clip.srt` - select a specific subtitles by default.<br>
   The URL needs to be the same URL previously provided to `sub=...`.<br>
-[Live demo](http://jsbin.com/vunela/6/edit?html,output)
+[Live demo](http://jsbin.com/vunela/15/edit?html,output)
 
 ### sub_transparent=0|1 
 
 * `sub_transparent=0` - subtitles with black background. <br>
-[Live demo](http://jsbin.com/tohetu/1/edit?html,output)
+[Live demo](http://jsbin.com/tohetu/2/edit?html,output)
 * `sub_transparent=1` - default, subtitles with transparent background (only supported on `<video>` tag).<br>
-[Live demo](http://jsbin.com/dusole/1/edit?html,output)
+[Live demo](http://jsbin.com/dusole/2/edit?html,output)
 
 When playing video with Hola Browser, which uses VLC rendering engine, this setting is has no effect: it is always `sub_transparent=0`,
 due to technical limitations of VLC module.
