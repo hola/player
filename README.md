@@ -95,6 +95,7 @@ possible 1:40 or 01:40
 ### duration=DURATION_SEC (coming soon)
 
 * `duration=3600` - set the video duration to be used before the video information is retrieved
+* `duration=01:00:00` - duration to 1 hour (which is 3600 seconds). Also  possible 1:00:00
 
 ### video_tag=0|1
 * `video_tag=0` - open hola browser with VLC engine to play videos
