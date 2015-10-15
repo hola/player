@@ -1,10 +1,12 @@
 [
     {
         "url": "https://durian.blender.org/wp-content/content/subtitles/sintel_en.srt",
-        "language": "en"
+        "language": "en",
+        "encoding": "utf8"
     },
     {
         "url": "https://durian.blender.org/wp-content/content/subtitles/sintel_es.srt",
+        "language": "es",
         "encoding": "utf8"
     }
 ]
