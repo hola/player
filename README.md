@@ -117,11 +117,11 @@ possible 1:40 or 01:40
 
 Language codes: two- ([ISO code table](http://www.w3schools.com/tags/ref_language_codes.asp))
 or four-letter (with region according to [IETF](https://en.wikipedia.org/wiki/IETF_language_tag))
-language code. Examples: 'en', 'en-US', 'pt-BR'
+language code. Examples: `en`, `en-US`, `pt-BR`
 
 Encoding: subtitles file encoding according to
 [WHATWG encodings list](https://encoding.spec.whatwg.org/#names-and-labels).
-Examples: "utf-8", "cp1251"
+Examples: `utf-8`, `cp1251`
 
 Supported formats: `srt`, `vtt`, and `zip` packaging.
 
