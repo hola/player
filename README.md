@@ -103,11 +103,11 @@ possible 1:40 or 01:40
 ### sub=LANGUAGE_CODE,ENCODING,URL
 [Live demo](http://jsbin.com/vunela/7/edit?html,output)
 
-* srt subtitles from http source: `sub=en,http://../clip_subtitles.srt`<br>
+* srt subtitles from http source: `sub=en,utf-8,http://../clip_subtitles.srt`<br>
 [Live demo](http://jsbin.com/fosafa/6/edit?html,output)
-* srt inside zip: `sub=en,http://../clip_subtitles.zip`<br>
+* srt inside zip: `sub=en,utf-8,http://../clip_subtitles.zip`<br>
 [Live demo](http://jsbin.com/gicuvi/3/edit?html,output)
-* multiple subtitles: `sub1=en,http://../clip_en.srt&sub2=fr,http://.../clip_fr.srt&sub3=es,http://.../clip_es.srt`<br>
+* multiple subtitles: `sub1=en,utf-8,http://../clip_en.srt&sub2=fr,utf-8,http://.../clip_fr.srt&sub3=es,utf-8,http://.../clip_es.srt`<br>
 [Live demo](http://jsbin.com/vunela/11/edit?html,output)
 * subtitles json: `sub=json,http://../clip_subtitles.json`<br>
 [Live demo](http://jsbin.com/hohuge/3/edit?html,output) (with custom encoding and language) and [file example](https://raw.githubusercontent.com/hola/player/master/res/subs.json)
@@ -124,7 +124,7 @@ Examples: "utf-8", "cp1251"
 
 Supported formats: `srt`, `vtt`, and `zip` packaging.
 
-### sub_default=on|off|LANGUAGE_CODE|URL
+### sub_default=on|off|URL
 * `sub_default=on` - default, automatic selection of subtitles (use previous user selection, default to browser locale).
 [Live demo](http://jsbin.com/hegefe/2/edit?html,output)
 * `sub_default=off` - subtitles off. User needs to enable them <br>
