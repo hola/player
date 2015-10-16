@@ -183,9 +183,9 @@ Feel free to also open issues with suggestions for improvement, or feature reque
 * ~~The player don't load the subtitles with appropriated encoding [Issue #5](https://github.com/hola/player/issues/5).<br>
   Solved: 12-Oct-2015~~
 * No way to disable subtitles embedded into MKV files.<br>
-  Target fix date: 15-Oct-2015
+  Target fix date: 19-Oct-2015
 * embedding inside https pages does not work [Issue #19](https://github.com/hola/player/issues/19).<br>
-  Target fix date: 22-Oct-2015
+  Target fix date: 20-Oct-2015
 * Embed not correctly identify the mobile [Issue #22](https://github.com/hola/player/issues/22).<br> 
   Target fix date: 23-Oct-2015
 * `file_select=...` - Ability to select which file in the torrent to use [Issue #2](https://github.com/hola/player/issues/2).<br>
