@@ -147,7 +147,7 @@ Supported formats: `srt`, `vtt`, and `zip` packaging.
 When playing video with Hola Browser, which uses VLC rendering engine, this setting is has no effect: it is always `sub_transparent=0`,
 due to technical limitations of VLC module.
 
-### file_select=NUMBER (coming soon)
+### file_select=NUMBER
 
 * default - the largest file in the torrent is selected for playing.
 * `file_select=3` - select the 4th file (`NUMBER` is 0 based index)
