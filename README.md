@@ -3,7 +3,7 @@ An embeddable HTML/JS widget for sites to instantly stream torrents and magnets 
 
 [Live demo](http://jsbin.com/faceyu/8/edit?html,output)
 ```html
-<script src="//client.h-cdn.com/hola_player.js"></script>
+<script src="//hola.org/play_page.js"></script>
 <div class="hola-embedded-player"
   v="http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_1080p_30fps_normal.mp4.torrent">
 </div> 
@@ -34,7 +34,7 @@ Use of the Hola Player is subject to [Hola Player terms of use](http://hola.org/
 
 ### &lt;script&gt; and &lt;div&gt;
 ```html
-<script src="//client.h-cdn.com/hola_player.js"></script>
+<script src="//hola.org/play_page.js"></script>
 <div class="hola-embedded-player"
   v="http://distribution.bbb3d.renderfarming.net/video/mp4/bbb_sunflower_1080p_30fps_normal.mp4.torrent">
 </div> 
@@ -51,7 +51,7 @@ Use of the Hola Player is subject to [Hola Player terms of use](http://hola.org/
 
 ### Make all torrent and magnet links pop up a media player upon hover
 ```html
-<script src="//client.h-cdn.com/hola_player.js"></script>
+<script src="//hola.org/play_page.js"></script>
 <script>window.hola_player.init({links: 'hover'});</script>
 ```
 [Live demo](http://jsbin.com/faceyu/9/edit?html,output)
