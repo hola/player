@@ -86,11 +86,13 @@ Use of the Hola Player is subject to [Hola Player terms of use](http://hola.org/
 * `autoplay=0` - default, don't auto start playing the video
 * `autoplay=1` - auto start playing the video
 
-### start=START_SEC (coming soon)
+### start=START_SEC
 
-* `start=100` - start playing video 100 sec after video start
+* `start=100` - start playing video 100 sec after video start<br>
+[Live demo](http://jsbin.com/fibiromana/1/edit?html,output)
 * `start=00:01:40` - start at 1 minute and 40 seconds (which is 100 seconds). Also 
-possible 1:40 or 01:40
+possible 1:40 or 01:40<br>
+[Live demo](http://jsbin.com/qahufidumu/1/edit?html,output)
 
 ### duration=DURATION_SEC (coming soon)
 
