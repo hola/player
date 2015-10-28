@@ -112,7 +112,7 @@ possible 1:40 or 01:40<br>
 * multiple subtitles: `sub1=en,utf-8,http://../clip_en.srt&sub2=fr,utf-8,http://.../clip_fr.srt&sub3=es,utf-8,http://.../clip_es.srt`<br>
 [Live demo](http://jsbin.com/vunela/11/edit?html,output)
 * subtitles json: `sub=json,http://../clip_subtitles.json`<br>
-[Live demo](http://jsbin.com/hohuge/3/edit?html,output) (with custom encoding and language) and [file example](https://raw.githubusercontent.com/hola/player/master/res/subs.json)
+[Live demo](http://jsbin.com/hohuge/3/edit?html,output) and [JSON example](https://raw.githubusercontent.com/hola/player/master/res/subs.json)
 * force subtitles encoding: `sub=en,utf8,http://.../clip.srt` or `sub=es,latin-1,http://.../clip.srt`.<br>
 [Live demo](http://jsbin.com/fosafa/3/edit?html,output)
 
