@@ -68,7 +68,6 @@ Use of the Hola Player is subject to [Hola Player terms of use](http://hola.org/
 
 ### v=VIDEO_SOURCE
 
-* `v=http://../clip.mp4` - http that holds mp4/mkv/avi video
 * `v=http://../clip.mp4.torrent` - torrent that holds mp4/mkv/avi video
 * `v=magnet:...` - magnet link that holds mp4/mkv/avi video
 
