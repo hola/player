@@ -184,9 +184,9 @@ Feel free to also open issues with suggestions for improvement, or feature reque
   Solved: 12-Oct-2015~~
 * ~~`file_select=...` - Ability to select which file in the torrent to use [Issue #2](https://github.com/hola/player/issues/2).<br>
   Solved: 20-Oct-2015~~
+* <b>embedding inside https pages does not work [Issue #19](https://github.com/hola/player/issues/19).<br>
+  Target fix date: 5-Nov-2015</b> 
 * No way to disable subtitles embedded into MKV files.<br>
-  Target fix date: 5-Nov-2015
-* embedding inside https pages does not work [Issue #19](https://github.com/hola/player/issues/19).<br>
   Target fix date: 8-Nov-2015
 * Embed not correctly identify the mobile [Issue #22](https://github.com/hola/player/issues/22).<br> 
   Target fix date: 9-Nov-2015
