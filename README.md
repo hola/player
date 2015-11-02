@@ -116,9 +116,7 @@ possible 1:40 or 01:40<br>
 * force subtitles encoding: `sub=en,utf8,http://.../clip.srt` or `sub=es,latin-1,http://.../clip.srt`.<br>
 [Live demo](http://jsbin.com/fosafa/3/edit?html,output)
 
-Language codes: two- ([ISO code table](http://www.w3schools.com/tags/ref_language_codes.asp))
-or four-letter (with region according to [IETF](https://en.wikipedia.org/wiki/IETF_language_tag))
-language code. Examples: `en`, `en-US`, `pt-BR`
+Language codes: [ISO 639-2 language code table](http://www.lingoes.net/en/translator/langcode.htm). Examples: `en`, `en-US`, `pt-BR`
 
 Encoding: subtitles file encoding according to
 [WHATWG encodings list](https://encoding.spec.whatwg.org/#names-and-labels).
