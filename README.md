@@ -118,8 +118,7 @@ possible 1:40 or 01:40<br>
 
 Language codes: [ISO 639-2 language code table](http://www.lingoes.net/en/translator/langcode.htm). Examples: `en`, `en-US`, `pt-BR`
 
-Encoding: subtitles file encoding according to
-[WHATWG encodings list](https://encoding.spec.whatwg.org/#names-and-labels).
+Encoding: [file encoding table](https://encoding.spec.whatwg.org/#names-and-labels).
 Examples: `utf-8`, `cp1251`
 
 Supported formats: `srt`, `vtt`, and `zip` packaging.
