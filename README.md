@@ -123,6 +123,8 @@ Examples: `utf-8`, `cp1251`
 
 Supported formats: `srt`, `vtt`, and `zip` packaging.
 
+Set server returning `srt`/`vtt`/`zip`/`json` file to include `Access-Control-Allow-Origin: *` in HTTP response headers.
+
 ### sub_default=on|off|URL
 * `sub_default=on` - default, automatic selection of subtitles (use previous user selection, default to browser locale).
 [Live demo](http://jsbin.com/hegefe/2/edit?html,output)
