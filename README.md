@@ -88,7 +88,7 @@ Use of the Hola Player is subject to [Hola Player terms of use](http://hola.org/
 ### start=START_SEC
 
 * `start=100` - start playing video 100 sec after video start<br>
-[Live demo](http://jsbin.com/zogaqucizu/1/edit?html,output)
+[Live demo](http://jsbin.com/subasi/1/edit?html,output)
 * `start=00:01:40` - start at 1 minute and 40 seconds (which is 100 seconds). Also 
 possible 1:40 or 01:40<br>
 [Live demo](http://jsbin.com/fevabifeyi/1/edit?html,output)
@@ -114,7 +114,7 @@ possible 1:40 or 01:40<br>
 * subtitles json: `sub=json,http://../clip_subtitles.json`<br>
 [Live demo](http://jsbin.com/fonimob/1/edit?html,output) and [JSON example](https://raw.githubusercontent.com/hola/player/master/res/subs.json)
 * force subtitles encoding: `sub=en,utf-8,http://.../clip.srt` or `sub=es,latin-1,http://.../clip.srt`.<br>
-[Live demo](http://jsbin.com/fosafa/13/edit?html,output)
+[Live demo](http://jsbin.com/fosafa/15/edit?html,output)
 
 Language codes: [ISO 639-2 language code table](http://www.lingoes.net/en/translator/langcode.htm). Examples: `en`, `en-US`, `pt-BR`
 
