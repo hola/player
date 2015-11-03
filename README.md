@@ -151,7 +151,7 @@ due to technical limitations of VLC module.
 
 * default - the largest file in the torrent is selected for playing.
 * `file_select=3` - select the 4th file (`NUMBER` is 0 based index) <br>
-[Live demo](http://jsbin.com/hegefe/edit?html,output)
+[Live demo](http://jsbin.com/hegefe/6/edit?html,output)
 
 ## Reporting bugs
 
