@@ -140,9 +140,9 @@ Set server returning `srt`/`vtt`/`zip`/`json` file to include `Access-Control-Al
 ### sub_transparent=0|1 
 
 * `sub_transparent=0` - subtitles with black background. <br>
-[Live demo](http://jsbin.com/tohetu/2/edit?html,output)
+[Live demo](http://jsbin.com/tohetu/3/edit?html,output)
 * `sub_transparent=1` - default, subtitles with transparent background (only supported on `<video>` tag).<br>
-[Live demo](http://jsbin.com/dusole/2/edit?html,output)
+[Live demo](http://jsbin.com/dusole/3/edit?html,output)
 
 When playing video with Hola Browser, which uses VLC rendering engine, this setting is has no effect: it is always `sub_transparent=0`,
 due to technical limitations of VLC module.
