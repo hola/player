@@ -108,7 +108,7 @@ possible 1:40 or 01:40<br>
 * srt subtitles from http source: `sub=en,utf-8,http://../clip_subtitles.srt`<br>
 [Live demo](http://jsbin.com/fosafa/10/edit?html,output)
 * srt inside zip: `sub=en,utf-8,http://../clip_subtitles.zip`<br>
-[Live demo](http://jsbin.com/gicuvi/3/edit?html,output)
+[Live demo](http://jsbin.com/gicuvi/4/edit?html,output)
 * multiple subtitles: `sub1=en,utf-8,http://../clip_en.srt&sub2=fr,utf-8,http://.../clip_fr.srt&sub3=es,utf-8,http://.../clip_es.srt`<br>
 [Live demo](http://jsbin.com/vunela/16/edit?html,output)
 * subtitles json: `sub=json,http://../clip_subtitles.json`<br>
