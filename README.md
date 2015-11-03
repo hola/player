@@ -110,11 +110,11 @@ possible 1:40 or 01:40<br>
 * srt inside zip: `sub=en,utf-8,http://../clip_subtitles.zip`<br>
 [Live demo](http://jsbin.com/gicuvi/3/edit?html,output)
 * multiple subtitles: `sub1=en,utf-8,http://../clip_en.srt&sub2=fr,utf-8,http://.../clip_fr.srt&sub3=es,utf-8,http://.../clip_es.srt`<br>
-[Live demo](http://jsbin.com/vunela/11/edit?html,output)
+[Live demo](http://jsbin.com/vunela/16/edit?html,output)
 * subtitles json: `sub=json,http://../clip_subtitles.json`<br>
-[Live demo](http://jsbin.com/hohuge/3/edit?html,output) and [JSON example](https://raw.githubusercontent.com/hola/player/master/res/subs.json)
+[Live demo](http://jsbin.com/fonimob/1/edit?html,output) and [JSON example](https://raw.githubusercontent.com/hola/player/master/res/subs.json)
 * force subtitles encoding: `sub=en,utf-8,http://.../clip.srt` or `sub=es,latin-1,http://.../clip.srt`.<br>
-[Live demo](http://jsbin.com/fosafa/3/edit?html,output)
+[Live demo](http://jsbin.com/fosafa/13/edit?html,output)
 
 Language codes: [ISO 639-2 language code table](http://www.lingoes.net/en/translator/langcode.htm). Examples: `en`, `en-US`, `pt-BR`
 
@@ -127,15 +127,15 @@ Set server returning `srt`/`vtt`/`zip`/`json` file to include `Access-Control-Al
 
 ### sub_default=on|off|URL
 * `sub_default=on` - default, automatic selection of subtitles (use previous user selection, default to browser locale).
-[Live demo](http://jsbin.com/hegefe/2/edit?html,output)
+[Live demo](http://jsbin.com/hegefe/5/edit?html,output)
 * `sub_default=off` - subtitles off. User needs to enable them <br>
-[Live demo](http://jsbin.com/fosafa/8/edit?html,output)
+[Live demo](http://jsbin.com/fosafa/14/edit?html,output)
 * `sub_default=en` - explicit subtitle language.<br>
   If there are multiple subtitles in this language, the first one will be selected.<br>
-[Live demo](http://jsbin.com/vunela/14/edit?html,output)
+[Live demo](http://jsbin.com/vunela/18/edit?html,output)
 * `sub_default=http://.../clip.srt` - select a specific subtitles by default.<br>
   The URL needs to be the same URL previously provided to `sub=...`.<br>
-[Live demo](http://jsbin.com/vunela/15/edit?html,output)
+[Live demo](http://jsbin.com/vunela/19/edit?html,output)
 
 ### sub_transparent=0|1 
 
