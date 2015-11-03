@@ -88,10 +88,10 @@ Use of the Hola Player is subject to [Hola Player terms of use](http://hola.org/
 ### start=START_SEC
 
 * `start=100` - start playing video 100 sec after video start<br>
-[Live demo](http://jsbin.com/fibiromana/1/edit?html,output)
+[Live demo](http://jsbin.com/zogaqucizu/1/edit?html,output)
 * `start=00:01:40` - start at 1 minute and 40 seconds (which is 100 seconds). Also 
 possible 1:40 or 01:40<br>
-[Live demo](http://jsbin.com/qahufidumu/1/edit?html,output)
+[Live demo](http://jsbin.com/fevabifeyi/1/edit?html,output)
 
 ### duration=DURATION_SEC (coming soon)
 
@@ -103,10 +103,10 @@ possible 1:40 or 01:40<br>
 * `video_tag=1` - default, in supporting browsers try playing MP4 videos in same browser using browser's `<video>` tag
 
 ### sub=LANGUAGE_CODE,ENCODING,URL
-[Live demo](http://jsbin.com/vunela/7/edit?html,output)
+[Live demo](http://jsbin.com/rorugitevu/1/edit?html,output)
 
 * srt subtitles from http source: `sub=en,utf-8,http://../clip_subtitles.srt`<br>
-[Live demo](http://jsbin.com/fosafa/6/edit?html,output)
+[Live demo](http://jsbin.com/fosafa/10/edit?html,output)
 * srt inside zip: `sub=en,utf-8,http://../clip_subtitles.zip`<br>
 [Live demo](http://jsbin.com/gicuvi/3/edit?html,output)
 * multiple subtitles: `sub1=en,utf-8,http://../clip_en.srt&sub2=fr,utf-8,http://.../clip_fr.srt&sub3=es,utf-8,http://.../clip_es.srt`<br>
