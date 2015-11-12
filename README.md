@@ -187,7 +187,7 @@ Feel free to also open issues with suggestions for improvement, or feature reque
   Solved: 5-Nov-2015~~
 * MKV: Cannot disable subtitles embedded into MKV files.<br>
   Target fix date: 15-Nov-2015
-* Embed not correctly identify the mobile. Download the exe file instead hola application [Issue #22](https://github.com/hola/player/issues/22).<br> 
+* Embed not correctly work in Android devices. Download the exe file instead hola application [Issue #22](https://github.com/hola/player/issues/22).<br> 
   Target fix date: 16-Nov-2015
 * MKV: Select an audio track in a dual audio mkv [Issue #2](https://github.com/hola/player/issues/2).<br>
   Target fix date: 24-Nov-2015
