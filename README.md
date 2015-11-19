@@ -103,7 +103,8 @@ possible 1:40 or 01:40<br>
 
 ### video_tag=0|1
 * `video_tag=0` - open hola browser with VLC engine to play videos
-* `video_tag=1` - default, in supporting browsers try playing MP4 videos in same browser using browser's `<video>` tag
+* `video_tag=1` - default, in supporting browsers try playing MP4 videos in same browser using browser's `<video>` tag<br>
+  [Live demo](http://jsbin.com/zusabe/1/edit?html,output)
 
 ### sub=LANGUAGE_CODE,ENCODING,URL
 [Live demo](http://jsbin.com/rorugitevu/1/edit?html,output)
