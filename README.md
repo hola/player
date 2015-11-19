@@ -102,7 +102,8 @@ possible 1:40 or 01:40<br>
 * `duration=01:00:00` - duration to 1 hour (which is 3600 seconds). Also  possible 1:00:00
 
 ### video_tag=0|1
-* `video_tag=0` - open hola browser with VLC engine to play videos
+* `video_tag=0` - open hola browser with VLC engine to play videos<br>
+  [Live demo](http://jsbin.com/zusabe/2/edit?html,output)
 * `video_tag=1` - default, in supporting browsers try playing MP4 videos in same browser using browser's `<video>` tag<br>
   [Live demo](http://jsbin.com/zusabe/1/edit?html,output)
 
