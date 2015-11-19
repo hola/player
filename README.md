@@ -75,7 +75,8 @@ Use of the Hola Player is subject to [Hola Player terms of use](http://hola.org/
 
 ### title=VIDEO_TITLE
 
-* `title="Video Title"` - set the video title. if not specified,  auto-detect video title (from file name, torrent info)
+* `title="Video Title"` - set the video title. if not specified,  auto-detect video title (from file name, torrent info)<br>
+  [Live demo](http://jsbin.com/yaqezi/1/edit?html,output)
 
 ### poster=POSTER_URL
 
