@@ -191,12 +191,12 @@ Feel free to also open issues with suggestions for improvement, or feature reque
 * ~~Embedding inside https pages redirects to http player. Allow playing embedded inside https pages [Issue #19](https://github.com/hola/player/issues/19).<br>
   Solved: 5-Nov-2015~~
 * MKV: Cannot disable subtitles embedded into MKV files.<br>
-  Target fix date: 25-Nov-2015
+  Target fix date: 3-Dec-2015
 * Embed not correctly work in Android. Download the exe file instead hola application [Issue #22](https://github.com/hola/player/issues/22).<br> 
-  Target fix date: 26-Nov-2015
-* MKV: Select an audio track in a dual audio mkv [Issue #2](https://github.com/hola/player/issues/2).<br>
-  Target fix date: 30-Nov-2015
-* Android: Subtitles for Android [Issue #17] (https://github.com/hola/player/issues/17).<br>
-  Target fix date: 30-Nov-2015
-* Firefox and Hola Browser: in full screen, some videos have blue artifacts at the top part of the screen.<br>
   Target fix date: 5-Dec-2015
+* MKV: Select an audio track in a dual audio mkv [Issue #2](https://github.com/hola/player/issues/2).<br>
+  Target fix date: 10-Dec-2015
+* Android: Subtitles for Android [Issue #17] (https://github.com/hola/player/issues/17).<br>
+  Target fix date: 15-Dec-2015
+* Firefox and Hola Browser: in full screen, some videos have blue artifacts at the top part of the screen.<br>
+  Target fix date: 25-Dec-2015
