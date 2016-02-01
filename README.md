@@ -16,7 +16,7 @@ An embeddable HTML/JS widget for sites to instantly stream torrents and magnets 
 * video formats: mp4, mkv, avi, wmv, divx, xvid, asf, asx, flv, m2v, m4p, m4v, mov,
   mpe, mpeg, mpg, mpg4, ogg, ogv, vob, webm, wvx
 * browsers: Chrome, Firefox, IE, Opera
-* operating systems: Windows XP and above, Android
+* operating systems: Windows XP and above, Android. Mac OS (coming soon).
 * [subtitles](https://github.com/hola/player/blob/master/README.md#sublanguage_codeencodingurl): srt, vtt, and zip packaging
 * [posters](https://github.com/hola/player/blob/master/README.md#posterposter_url)
 * seek/reposition
